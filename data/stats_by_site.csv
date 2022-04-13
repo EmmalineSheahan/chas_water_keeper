@@ -1,0 +1,1501 @@
+"","Site","X Variable","Y Variable","R Squared","P Value"
+"1","AR1","Temperature","Chlorophyll Concentration",0.0604893711285196,0.257961706639658
+"2","AR2","Temperature","Chlorophyll Concentration",0.0233354396619451,0.466008483095299
+"3","AR3","Temperature","Chlorophyll Concentration",0.00381091304478883,0.764497214644553
+"4","CC1","Temperature","Chlorophyll Concentration",0.0899001121661207,0.164533061287324
+"5","CH1","Temperature","Chlorophyll Concentration",0.0618773191677482,0.252397009994213
+"6","CH2","Temperature","Chlorophyll Concentration",0.0674202629483231,0.243232407598048
+"7","CH3","Temperature","Chlorophyll Concentration",1.308564741857e-05,0.987252964601336
+"8","CS1","Temperature","Chlorophyll Concentration",0.18974202867784,0.0261296258876521
+"9","FB1","Temperature","Chlorophyll Concentration",6.49422493424365e-06,0.990142281554282
+"10","FC1","Temperature","Chlorophyll Concentration",0.00466981276722987,0.745508766475199
+"11","HC1","Temperature","Chlorophyll Concentration",0.0947263641975339,0.17469721098308
+"12","HC2","Temperature","Chlorophyll Concentration",0.110864287985121,0.111868627045211
+"13","JIC1","Temperature","Chlorophyll Concentration",0.308784379009267,0.00590641718173359
+"14","JIC2","Temperature","Chlorophyll Concentration",0.212326583950308,0.017833588761841
+"15","SC1","Temperature","Chlorophyll Concentration",0.189825361297258,0.0333264003976904
+"16","SC2","Temperature","Chlorophyll Concentration",0.275549981393336,0.00589840723207112
+"17","SC3","Temperature","Chlorophyll Concentration",0.0441931456539281,0.302643038403194
+"18","SR1","Temperature","Chlorophyll Concentration",0.101588358245792,0.148252676160601
+"19","WC1","Temperature","Chlorophyll Concentration",0.0234746007989157,0.454913337787855
+"20","WR1","Temperature","Chlorophyll Concentration",0.0890276344996276,0.166696324795528
+"21","AR1","Temperature","Phycocyanin Concentration",0.196567759923729,0.0441080061735025
+"22","AR2","Temperature","Phycocyanin Concentration",0.238066986446394,0.0212423733639572
+"23","AR3","Temperature","Phycocyanin Concentration",0.254257036191722,0.0141483628532496
+"24","CC1","Temperature","Phycocyanin Concentration",0.0696215630908807,0.260971026090296
+"25","CH1","Temperature","Phycocyanin Concentration",0.39154870768796,0.00316738800880374
+"26","CH2","Temperature","Phycocyanin Concentration",0.208829274419921,0.0428027247038536
+"27","CH3","Temperature","Phycocyanin Concentration",0.0199901097647223,0.563694415324856
+"28","CS1","Temperature","Phycocyanin Concentration",0.376193810115802,0.00185638619787295
+"29","FB1","Temperature","Phycocyanin Concentration",0.231978382055879,0.0199619414151402
+"30","FC1","Temperature","Phycocyanin Concentration",0.356490710421258,0.00334900567337429
+"31","HC1","Temperature","Phycocyanin Concentration",0.0971467876713138,0.193940197351838
+"32","HC2","Temperature","Phycocyanin Concentration",0.00995088637018052,0.667039138438535
+"33","JIC1","Temperature","Phycocyanin Concentration",0.325141693854955,0.00695620041548996
+"34","JIC2","Temperature","Phycocyanin Concentration",0.384721930317691,0.00159180364599199
+"35","SC1","Temperature","Phycocyanin Concentration",0.000119614373800189,0.962472502475192
+"36","SC2","Temperature","Phycocyanin Concentration",0.224992351096973,0.0222089383049785
+"37","SC3","Temperature","Phycocyanin Concentration",0.012107133021782,0.617222075643225
+"38","SR1","Temperature","Phycocyanin Concentration",0.232533706617829,0.0313013312611782
+"39","WC1","Temperature","Phycocyanin Concentration",0.172976683747347,0.0483993249741625
+"40","WR1","Temperature","Phycocyanin Concentration",0.131735023958229,0.11575350583028
+"41","AR1","Temperature","Phycoerytherin Concentration",0.166206326683089,0.059651815269925
+"42","AR2","Temperature","Phycoerytherin Concentration",0.00580911328866589,0.723360733604454
+"43","AR3","Temperature","Phycoerytherin Concentration",0.0912409669338069,0.142235446982169
+"44","CC1","Temperature","Phycoerytherin Concentration",0.121762097537596,0.111462030166543
+"45","CH1","Temperature","Phycoerytherin Concentration",0.323264557803179,0.00576256826845877
+"46","CH2","Temperature","Phycoerytherin Concentration",0.20130055648119,0.0413436905244051
+"47","CH3","Temperature","Phycoerytherin Concentration",0.00488873034868729,0.763292465475415
+"48","CS1","Temperature","Phycoerytherin Concentration",0.150177735483151,0.0556204925523994
+"49","FB1","Temperature","Phycoerytherin Concentration",0.20501760350863,0.023036417760911
+"50","FC1","Temperature","Phycoerytherin Concentration",0.00232170610622759,0.823083390960824
+"51","HC1","Temperature","Phycoerytherin Concentration",0.0599272951021747,0.298235939712567
+"52","HC2","Temperature","Phycoerytherin Concentration",0.00844541775147628,0.676650406801377
+"53","JIC1","Temperature","Phycoerytherin Concentration",0.212706370783138,0.0307402280337176
+"54","JIC2","Temperature","Phycoerytherin Concentration",0.208644750364075,0.0217114407604752
+"55","SC1","Temperature","Phycoerytherin Concentration",0.052521767867478,0.292854583457579
+"56","SC2","Temperature","Phycoerytherin Concentration",0.0392116540787575,0.342697479353931
+"57","SC3","Temperature","Phycoerytherin Concentration",0.0155572164549127,0.552483968252564
+"58","SR1","Temperature","Phycoerytherin Concentration",0.0980526296429236,0.155906696000572
+"59","WC1","Temperature","Phycoerytherin Concentration",0.0319188510724463,0.392847695407315
+"60","WR1","Temperature","Phycoerytherin Concentration",0.000556041778418008,0.91704200438644
+"61","AR1","Salinity","Chlorophyll Concentration",0.0160546265674148,0.616366882047892
+"62","AR2","Salinity","Chlorophyll Concentration",7.07390555827457e-05,0.971926584946635
+"63","AR3","Salinity","Chlorophyll Concentration",0.106608373820026,0.160012124633283
+"64","CC1","Salinity","Chlorophyll Concentration",0.0116460673000866,0.650642165429358
+"65","CH1","Salinity","Chlorophyll Concentration",0.106487792157756,0.172717099666216
+"66","CH2","Salinity","Chlorophyll Concentration",0.0352070135048602,0.470813297194935
+"67","CH3","Salinity","Chlorophyll Concentration",0.000201732753320942,0.953979565253403
+"68","CS1","Salinity","Chlorophyll Concentration",0.183613845977359,0.0594255872468324
+"69","FB1","Salinity","Chlorophyll Concentration",0.17416739548128,0.0671339193938576
+"70","FC1","Salinity","Chlorophyll Concentration",0.00556175848799857,0.761563619377476
+"71","HC1","Salinity","Chlorophyll Concentration",0.00691321314561318,0.751049398884318
+"72","HC2","Salinity","Chlorophyll Concentration",0.176277799122603,0.0653317520889961
+"73","JIC1","Salinity","Chlorophyll Concentration",0.0614293004703373,0.321377535286966
+"74","JIC2","Salinity","Chlorophyll Concentration",0.0871302556058835,0.206423801390512
+"75","SC1","Salinity","Chlorophyll Concentration",0.00267376025342564,0.828596932406115
+"76","SC2","Salinity","Chlorophyll Concentration",0.0665978798972291,0.27197186490794
+"77","SC3","Salinity","Chlorophyll Concentration",0.521550652193678,0.000323565211981117
+"78","SR1","Salinity","Chlorophyll Concentration",0.36973526590734,0.00960771756136916
+"79","WC1","Salinity","Chlorophyll Concentration",0.160300450837404,0.0802436731480002
+"80","WR1","Salinity","Chlorophyll Concentration",4.7774581524734e-05,0.977595870019021
+"81","AR1","Salinity","Phycocyanin Concentration",0.23736338639414,0.0556102740786054
+"82","AR2","Salinity","Phycocyanin Concentration",0.123125983305986,0.16729350827907
+"83","AR3","Salinity","Phycocyanin Concentration",0.118024043298431,0.176980671857747
+"84","CC1","Salinity","Phycocyanin Concentration",0.0155965899928976,0.632952545025861
+"85","CH1","Salinity","Phycocyanin Concentration",0.047703146421079,0.416415286535739
+"86","CH2","Salinity","Phycocyanin Concentration",0.146130709532303,0.159672538629715
+"87","CH3","Salinity","Phycocyanin Concentration",0.0839776547173224,0.276284641253977
+"88","CS1","Salinity","Phycocyanin Concentration",0.0504430170735752,0.38613685767336
+"89","FB1","Salinity","Phycocyanin Concentration",0.28804640791284,0.0263336538855474
+"90","FC1","Salinity","Phycocyanin Concentration",0.00093080954287999,0.910694609326339
+"91","HC1","Salinity","Phycocyanin Concentration",0.0173862775836232,0.639476500914505
+"92","HC2","Salinity","Phycocyanin Concentration",0.079643347254102,0.272441416378601
+"93","JIC1","Salinity","Phycocyanin Concentration",0.277181844884833,0.0361623184080411
+"94","JIC2","Salinity","Phycocyanin Concentration",0.0580714520892935,0.351471274690157
+"95","SC1","Salinity","Phycocyanin Concentration",0.229263619289972,0.0518381987265001
+"96","SC2","Salinity","Phycocyanin Concentration",0.152800219201729,0.120798306899518
+"97","SC3","Salinity","Phycocyanin Concentration",4.61606139970107e-05,0.979353561976955
+"98","SR1","Salinity","Phycocyanin Concentration",0.376303055835399,0.0150119787717825
+"99","WC1","Salinity","Phycocyanin Concentration",0.119395377570995,0.174320547815064
+"100","WR1","Salinity","Phycocyanin Concentration",0.0126286760843917,0.67860817028504
+"101","AR1","Salinity","Phycoerytherin Concentration",0.0937057053161835,0.232104087887534
+"102","AR2","Salinity","Phycoerytherin Concentration",0.0237006726825061,0.52917522442382
+"103","AR3","Salinity","Phycoerytherin Concentration",0.0305829106362819,0.473942047388163
+"104","CC1","Salinity","Phycoerytherin Concentration",0.0997100520803307,0.187851664626053
+"105","CH1","Salinity","Phycoerytherin Concentration",0.067590696697742,0.297468344376643
+"106","CH2","Salinity","Phycoerytherin Concentration",0.02524517737981,0.556700828951489
+"107","CH3","Salinity","Phycoerytherin Concentration",0.0132407500078406,0.649352780475809
+"108","CS1","Salinity","Phycoerytherin Concentration",0.207796257347131,0.0498210753314364
+"109","FB1","Salinity","Phycoerytherin Concentration",0.248720025470003,0.0297414079845473
+"110","FC1","Salinity","Phycoerytherin Concentration",0.237797164325694,0.0400879948951121
+"111","HC1","Salinity","Phycoerytherin Concentration",0.00204868070859291,0.867805046134336
+"112","HC2","Salinity","Phycoerytherin Concentration",0.088945301826398,0.214904009573078
+"113","JIC1","Salinity","Phycoerytherin Concentration",0.172898414253021,0.0969125538327101
+"114","JIC2","Salinity","Phycoerytherin Concentration",0.0213346810164207,0.550728310929728
+"115","SC1","Salinity","Phycoerytherin Concentration",0.0328311014464993,0.45786695961323
+"116","SC2","Salinity","Phycoerytherin Concentration",0.107142804862545,0.171324758481711
+"117","SC3","Salinity","Phycoerytherin Concentration",0.00743742911118764,0.725552053824286
+"118","SR1","Salinity","Phycoerytherin Concentration",0.124150836096184,0.165415263442415
+"119","WC1","Salinity","Phycoerytherin Concentration",0.0116059979998151,0.660668274552333
+"120","WR1","Salinity","Phycoerytherin Concentration",0.0118157322541608,0.667673174361626
+"121","AR1","Phosphate","Chlorophyll Concentration",0.221997851413289,0.0762562253900527
+"122","AR2","Phosphate","Chlorophyll Concentration",0.139805058564053,0.139281205586928
+"123","AR3","Phosphate","Chlorophyll Concentration",0.0249184830586487,0.545116184440263
+"124","CC1","Phosphate","Chlorophyll Concentration",0.00855217154966503,0.724080257261823
+"125","CH1","Phosphate","Chlorophyll Concentration",0.271036329818672,0.0386806704923832
+"126","CH2","Phosphate","Chlorophyll Concentration",0.0317609422147593,0.542149927480443
+"127","CH3","Phosphate","Chlorophyll Concentration",0.46446997210352,0.00364520187727581
+"128","CS1","Phosphate","Chlorophyll Concentration",0.0315213015335742,0.495419109736893
+"129","FB1","Phosphate","Chlorophyll Concentration",0.0603988499847288,0.34169964376498
+"130","FC1","Phosphate","Chlorophyll Concentration",0.0164595826196435,0.635844615877719
+"131","HC1","Phosphate","Chlorophyll Concentration",0.129613793308916,0.206085820359232
+"132","HC2","Phosphate","Chlorophyll Concentration",0.00368364076154781,0.817007848106464
+"133","JIC1","Phosphate","Chlorophyll Concentration",0.00767062787434067,0.756276988720309
+"134","JIC2","Phosphate","Chlorophyll Concentration",0.332719354059355,0.0153472640524668
+"135","SC1","Phosphate","Chlorophyll Concentration",1.16901765461902e-05,0.989609120271271
+"136","SC2","Phosphate","Chlorophyll Concentration",0.161036046224821,0.110377382577767
+"137","SC3","Phosphate","Chlorophyll Concentration",0.00312442297397777,0.831265878796181
+"138","SR1","Phosphate","Chlorophyll Concentration",0.000991317687589322,0.904516807057849
+"139","WC1","Phosphate","Chlorophyll Concentration",0.00121525200650961,0.894332063381039
+"140","WR1","Phosphate","Chlorophyll Concentration",0.146890605664223,0.14282775523593
+"141","AR1","Phosphate","Phycocyanin Concentration",0.0946349418269977,0.284644072240381
+"142","AR2","Phosphate","Phycocyanin Concentration",0.0250213251885327,0.573400913491279
+"143","AR3","Phosphate","Phycocyanin Concentration",0.00194553326298588,0.875966302367094
+"144","CC1","Phosphate","Phycocyanin Concentration",0.273966553318473,0.0452464597700393
+"145","CH1","Phosphate","Phycocyanin Concentration",0.00994908728061342,0.734411097289492
+"146","CH2","Phosphate","Phycocyanin Concentration",0.348587278574277,0.0336362827161942
+"147","CH3","Phosphate","Phycocyanin Concentration",0.115086759091977,0.235388850445212
+"148","CS1","Phosphate","Phycocyanin Concentration",0.0144508344768336,0.669568601130933
+"149","FB1","Phosphate","Phycocyanin Concentration",0.145765831662896,0.16023845126945
+"150","FC1","Phosphate","Phycocyanin Concentration",0.137309607624338,0.192151096479873
+"151","HC1","Phosphate","Phycocyanin Concentration",0.00753836377399013,0.777915401604782
+"152","HC2","Phosphate","Phycocyanin Concentration",0.00292916289647943,0.848081519442022
+"153","JIC1","Phosphate","Phycocyanin Concentration",0.105067014525772,0.258217775840204
+"154","JIC2","Phosphate","Phycocyanin Concentration",0.179484339116599,0.115568426460641
+"155","SC1","Phosphate","Phycocyanin Concentration",0.0540099645484525,0.404562928767381
+"156","SC2","Phosphate","Phycocyanin Concentration",0.00227919738555914,0.865832863344874
+"157","SC3","Phosphate","Phycocyanin Concentration",0.0700210062945794,0.340550399775627
+"158","SR1","Phosphate","Phycocyanin Concentration",0.0125928490790619,0.690501416999543
+"159","WC1","Phosphate","Phycocyanin Concentration",0.00148185045577771,0.891659412095475
+"160","WR1","Phosphate","Phycocyanin Concentration",0.00401856912082686,0.829539189345558
+"161","AR1","Phosphate","Phycoerytherin Concentration",0.0275216368266597,0.554592650643504
+"162","AR2","Phosphate","Phycoerytherin Concentration",0.118801465690127,0.175467435389494
+"163","AR3","Phosphate","Phycoerytherin Concentration",0.0143180696617253,0.647359577971214
+"164","CC1","Phosphate","Phycoerytherin Concentration",0.0459353429538865,0.408781484430015
+"165","CH1","Phosphate","Phycoerytherin Concentration",0.00189475558395565,0.872829092589
+"166","CH2","Phosphate","Phycoerytherin Concentration",0.242725969574059,0.0734781898603787
+"167","CH3","Phosphate","Phycoerytherin Concentration",0.00062300780935494,0.92689263150262
+"168","CS1","Phosphate","Phycoerytherin Concentration",0.00186845771706436,0.869160728301669
+"169","FB1","Phosphate","Phycoerytherin Concentration",0.227035350327075,0.0531551097843286
+"170","FC1","Phosphate","Phycoerytherin Concentration",0.023979696330854,0.566887001907592
+"171","HC1","Phosphate","Phycoerytherin Concentration",0.00170612318165239,0.888502712647789
+"172","HC2","Phosphate","Phycoerytherin Concentration",0.052358429875294,0.377025795222284
+"173","JIC1","Phosphate","Phycoerytherin Concentration",0.0156290330074705,0.657093922907937
+"174","JIC2","Phosphate","Phycoerytherin Concentration",0.199954322300051,0.0719159975800251
+"175","SC1","Phosphate","Phycoerytherin Concentration",0.183101992494963,0.0866286232606113
+"176","SC2","Phosphate","Phycoerytherin Concentration",0.113827026154602,0.185390828232264
+"177","SC3","Phosphate","Phycoerytherin Concentration",0.0504465132201078,0.386119961596656
+"178","SR1","Phosphate","Phycoerytherin Concentration",0.0173365005937045,0.614449058224276
+"179","WC1","Phosphate","Phycoerytherin Concentration",0.0111941882845962,0.68610614938511
+"180","WR1","Phosphate","Phycoerytherin Concentration",0.0217720014766532,0.585521910825292
+"181","AR1","Nitrate","Chlorophyll Concentration",0.0405037628057459,0.471987529564389
+"182","AR2","Nitrate","Chlorophyll Concentration",0.00605820353969291,0.76652319724503
+"183","AR3","Nitrate","Chlorophyll Concentration",0.0011118044820331,0.898906908784967
+"184","CC1","Nitrate","Chlorophyll Concentration",0.231283922441916,0.0506708216525707
+"185","CH1","Nitrate","Chlorophyll Concentration",0.216081802964286,0.0696482671617488
+"186","CH2","Nitrate","Chlorophyll Concentration",0.156173062294683,0.161960575512257
+"187","CH3","Nitrate","Chlorophyll Concentration",0.0012150067284364,0.898025868048175
+"188","CS1","Nitrate","Chlorophyll Concentration",0.0457038375397,0.409993078365256
+"189","FB1","Nitrate","Chlorophyll Concentration",0.0612734162404844,0.338116546618324
+"190","FC1","Nitrate","Chlorophyll Concentration",0.217980956474195,0.0682710676400181
+"191","HC1","Nitrate","Chlorophyll Concentration",0.259705466277944,0.0626754220171783
+"192","HC2","Nitrate","Chlorophyll Concentration",0.126221843006106,0.161686293129475
+"193","JIC1","Nitrate","Chlorophyll Concentration",0.0566529689070233,0.392968892768231
+"194","JIC2","Nitrate","Chlorophyll Concentration",0.12578747350907,0.162461109157458
+"195","SC1","Nitrate","Chlorophyll Concentration",0.00247263020260555,0.849682703176736
+"196","SC2","Nitrate","Chlorophyll Concentration",0.0229404687176136,0.561720790458589
+"197","SC3","Nitrate","Chlorophyll Concentration",0.154269522091478,0.118869917572907
+"198","SR1","Nitrate","Chlorophyll Concentration",0.00100760292717739,0.903739101867651
+"199","WC1","Nitrate","Chlorophyll Concentration",0.0883121739248846,0.246719237853607
+"200","WR1","Nitrate","Chlorophyll Concentration",0.138717381328501,0.155413604856492
+"201","AR1","Nitrate","Phycocyanin Concentration",0.0020169870263109,0.878832552611539
+"202","AR2","Nitrate","Phycocyanin Concentration",0.00974335166454812,0.726348716197229
+"203","AR3","Nitrate","Phycocyanin Concentration",0.000238279167626858,0.956456690237624
+"204","CC1","Nitrate","Phycocyanin Concentration",0.00187667093574427,0.878165815017914
+"205","CH1","Nitrate","Phycocyanin Concentration",0.106867220599064,0.253942384463368
+"206","CH2","Nitrate","Phycocyanin Concentration",9.96833786031645e-06,0.99183258883067
+"207","CH3","Nitrate","Phycocyanin Concentration",0.0051339554940947,0.807686286205663
+"208","CS1","Nitrate","Phycocyanin Concentration",0.00280947323097427,0.851185121090161
+"209","FB1","Nitrate","Phycocyanin Concentration",0.045771609418897,0.443888068113051
+"210","FC1","Nitrate","Phycocyanin Concentration",0.0493519198608564,0.445261981556042
+"211","HC1","Nitrate","Phycocyanin Concentration",0.00627343648704834,0.79702000528937
+"212","HC2","Nitrate","Phycocyanin Concentration",0.000520281216700947,0.935690813566184
+"213","JIC1","Nitrate","Phycocyanin Concentration",0.0174033097993381,0.65302877251107
+"214","JIC2","Nitrate","Phycocyanin Concentration",0.0136990249809072,0.677840540565651
+"215","SC1","Nitrate","Phycocyanin Concentration",1.83738679020094e-05,0.987903666128765
+"216","SC2","Nitrate","Phycocyanin Concentration",0.054696856831772,0.401505717925291
+"217","SC3","Nitrate","Phycocyanin Concentration",0.0750757771502041,0.323046104650993
+"218","SR1","Nitrate","Phycocyanin Concentration",0.166218731582025,0.13143398584797
+"219","WC1","Nitrate","Phycocyanin Concentration",0.00917477895535578,0.734178521969709
+"220","WR1","Nitrate","Phycocyanin Concentration",0.0600462585996027,0.398462062799242
+"221","AR1","Nitrate","Phycoerytherin Concentration",0.0140204749882975,0.674272377318688
+"222","AR2","Nitrate","Phycoerytherin Concentration",0.0755642058256165,0.285605525766084
+"223","AR3","Nitrate","Phycoerytherin Concentration",0.0341722082809759,0.477525014258491
+"224","CC1","Nitrate","Phycoerytherin Concentration",0.0278444242091227,0.522097596770136
+"225","CH1","Nitrate","Phycoerytherin Concentration",0.0108376364807103,0.701213835239384
+"226","CH2","Nitrate","Phycoerytherin Concentration",0.0154939305195275,0.671584623752734
+"227","CH3","Nitrate","Phycoerytherin Concentration",0.0679463523634985,0.329520456470378
+"228","CS1","Nitrate","Phycoerytherin Concentration",0.026925375611408,0.529143583668888
+"229","FB1","Nitrate","Phycoerytherin Concentration",0.0401031018296398,0.440915801348086
+"230","FC1","Nitrate","Phycoerytherin Concentration",0.00206374536010981,0.867323888225873
+"231","HC1","Nitrate","Phycoerytherin Concentration",0.00183443096795314,0.884410856778253
+"232","HC2","Nitrate","Phycoerytherin Concentration",0.00358142558401916,0.819524780059503
+"233","JIC1","Nitrate","Phycoerytherin Concentration",0.0240068584214934,0.581377398228075
+"234","JIC2","Nitrate","Phycoerytherin Concentration",0.059221988075682,0.346597086407095
+"235","SC1","Nitrate","Phycoerytherin Concentration",0.087805726813266,0.248143713838776
+"236","SC2","Nitrate","Phycoerytherin Concentration",0.0220531794393552,0.569474712409901
+"237","SC3","Nitrate","Phycoerytherin Concentration",0.0454804703366553,0.411166809542337
+"238","SR1","Nitrate","Phycoerytherin Concentration",0.219500565354281,0.057846031941533
+"239","WC1","Nitrate","Phycoerytherin Concentration",0.0804126067465701,0.270038645187899
+"240","WR1","Nitrate","Phycoerytherin Concentration",5.14175677098494e-05,0.978973524557007
+"241","AR1","Tidal Height","CDOM absorbance at 412 nm",0.591248794173572,0.000807058468269214
+"242","AR2","Tidal Height","CDOM absorbance at 412 nm",0.0271735079667776,0.527225274924684
+"243","AR3","Tidal Height","CDOM absorbance at 412 nm",2.77528512920306e-05,0.983990400296397
+"244","CC1","Tidal Height","CDOM absorbance at 412 nm",0.0145276275895547,0.644946931485382
+"245","CH1","Tidal Height","CDOM absorbance at 412 nm",0.129724938486102,0.170578152146047
+"246","CH2","Tidal Height","CDOM absorbance at 412 nm",0.126262285095267,0.212482641398405
+"247","CH3","Tidal Height","CDOM absorbance at 412 nm",0.00362380322147462,0.824734758189745
+"248","CS1","Tidal Height","CDOM absorbance at 412 nm",0.0185218207282286,0.602487811617901
+"249","FB1","Tidal Height","CDOM absorbance at 412 nm",0.0368695234430989,0.476200654080199
+"250","FC1","Tidal Height","CDOM absorbance at 412 nm",0.180104748764435,0.101342855059173
+"251","HC1","Tidal Height","CDOM absorbance at 412 nm",0.411982032360729,0.0133368189413461
+"252","HC2","Tidal Height","CDOM absorbance at 412 nm",0.0918915468622389,0.236909312011325
+"253","JIC1","Tidal Height","CDOM absorbance at 412 nm",0.104953599799951,0.238808811122239
+"254","JIC2","Tidal Height","CDOM absorbance at 412 nm",0.0075365738557869,0.740415685965977
+"255","SC1","Tidal Height","CDOM absorbance at 412 nm",0.0228605769249253,0.562410878551596
+"256","SC2","Tidal Height","CDOM absorbance at 412 nm",0.162565428637616,0.108542909640247
+"257","SC3","Tidal Height","CDOM absorbance at 412 nm",0.503969820558121,0.00141009367410699
+"258","SR1","Tidal Height","CDOM absorbance at 412 nm",0.00449164792015708,0.798284206788412
+"259","WC1","Tidal Height","CDOM absorbance at 412 nm",0.520170384908978,0.0010851850146902
+"260","WR1","Tidal Height","CDOM absorbance at 412 nm",0.0460852650983977,0.424627934118497
+"261","AR1","Tidal Height","Chlorophyll Concentration",0.00426560943844643,0.761734803236926
+"262","AR2","Tidal Height","Chlorophyll Concentration",0.106079900604004,0.104441082749452
+"263","AR3","Tidal Height","Chlorophyll Concentration",0.0077863382983814,0.668179399796176
+"264","CC1","Tidal Height","Chlorophyll Concentration",0.340485146512685,0.00219946984328152
+"265","CH1","Tidal Height","Chlorophyll Concentration",0.00379482030000543,0.769889559611096
+"266","CH2","Tidal Height","Chlorophyll Concentration",0.00659051787823277,0.712700180916851
+"267","CH3","Tidal Height","Chlorophyll Concentration",0.0866482960189669,0.153198006388843
+"268","CS1","Tidal Height","Chlorophyll Concentration",0.34190244779286,0.00170577221857875
+"269","FB1","Tidal Height","Chlorophyll Concentration",0.0510184635397929,0.26721422108318
+"270","FC1","Tidal Height","Chlorophyll Concentration",0.174669888083686,0.0376234594381313
+"271","HC1","Tidal Height","Chlorophyll Concentration",0.200554974525422,0.0321193509629873
+"272","HC2","Tidal Height","Chlorophyll Concentration",0.290596355544964,0.00448803022138011
+"273","JIC1","Tidal Height","Chlorophyll Concentration",0.0147651130377898,0.571660270429157
+"274","JIC2","Tidal Height","Chlorophyll Concentration",0.395793853030754,0.000575547099389726
+"275","SC1","Tidal Height","Chlorophyll Concentration",0.0560171729387781,0.244378701176038
+"276","SC2","Tidal Height","Chlorophyll Concentration",0.136602794717416,0.0631230068747302
+"277","SC3","Tidal Height","Chlorophyll Concentration",0.23028301861667,0.0131044782484421
+"278","SR1","Tidal Height","Chlorophyll Concentration",0.288003736388244,0.0100231476632967
+"279","WC1","Tidal Height","Chlorophyll Concentration",0.027581570088642,0.417459986799838
+"280","WR1","Tidal Height","Chlorophyll Concentration",0.164635078330137,0.0441767533560492
+"281","AR1","Tidal Height","Nitrate",0.0140323186638402,0.674141817168944
+"282","AR2","Tidal Height","Nitrate",0.000457365732317379,0.93506866415541
+"283","AR3","Tidal Height","Nitrate",0.0721963721353694,0.297039618857682
+"284","CC1","Tidal Height","Nitrate",0.338533730103785,0.0142780885825225
+"285","CH1","Tidal Height","Nitrate",6.34290793287114e-05,0.976646902778483
+"286","CH2","Tidal Height","Nitrate",0.0402470995983828,0.491643189745612
+"287","CH3","Tidal Height","Nitrate",0.0592472303579203,0.363655456288014
+"288","CS1","Tidal Height","Nitrate",0.00109615155372057,0.899617668441457
+"289","FB1","Tidal Height","Nitrate",0.0630419923704813,0.331013208923666
+"290","FC1","Tidal Height","Nitrate",0.394674064849,0.00915720993849009
+"291","HC1","Tidal Height","Nitrate",0.164821709654081,0.14977304238635
+"292","HC2","Tidal Height","Nitrate",0.338024363757403,0.0143689757982712
+"293","JIC1","Tidal Height","Nitrate",0.184999320335669,0.109539387014316
+"294","JIC2","Tidal Height","Nitrate",0.290994866337407,0.0254308777047957
+"295","SC1","Tidal Height","Nitrate",0.274736231068839,0.0307882419745898
+"296","SC2","Tidal Height","Nitrate",0.110208520267393,0.192981439823727
+"297","SC3","Tidal Height","Nitrate",0.161351044253812,0.109997054407456
+"298","SR1","Tidal Height","Nitrate",0.040044181320362,0.441258653103858
+"299","WC1","Tidal Height","Nitrate",0.0117087082514019,0.679326422966927
+"300","WR1","Tidal Height","Nitrate",0.0952615092117477,0.244786327934461
+"301","AR1","Tidal Height","Phycocyanin Concentration",0.125717371851663,0.105426955653789
+"302","AR2","Tidal Height","Phycocyanin Concentration",0.00356453364244049,0.786696704605427
+"303","AR3","Tidal Height","Phycocyanin Concentration",0.0404605892729021,0.357399218630005
+"304","CC1","Tidal Height","Phycocyanin Concentration",0.0203512548785855,0.52652558145521
+"305","CH1","Tidal Height","Phycocyanin Concentration",0.0246353172582514,0.485452150721084
+"306","CH2","Tidal Height","Phycocyanin Concentration",0.0227707262576928,0.513807053543852
+"307","CH3","Tidal Height","Phycocyanin Concentration",0.00364423673816998,0.789573954447574
+"308","CS1","Tidal Height","Phycocyanin Concentration",0.0382574497648739,0.371100910196963
+"309","FB1","Tidal Height","Phycocyanin Concentration",0.070919823311966,0.219343974095056
+"310","FC1","Tidal Height","Phycocyanin Concentration",0.0357682439791635,0.399261750958656
+"311","HC1","Tidal Height","Phycocyanin Concentration",0.048882762572386,0.335480935631819
+"312","HC2","Tidal Height","Phycocyanin Concentration",0.0113346389534419,0.628748417968852
+"313","JIC1","Tidal Height","Phycocyanin Concentration",0.0521737428644685,0.306580052925572
+"314","JIC2","Tidal Height","Phycocyanin Concentration",0.0312260123332999,0.419906898775047
+"315","SC1","Tidal Height","Phycocyanin Concentration",0.0453583457807953,0.329219179229558
+"316","SC2","Tidal Height","Phycocyanin Concentration",0.0957803439017629,0.150711400838947
+"317","SC3","Tidal Height","Phycocyanin Concentration",0.0226925157901557,0.492657152817174
+"318","SR1","Tidal Height","Phycocyanin Concentration",0.184371349095063,0.0588460835165382
+"319","WC1","Tidal Height","Phycocyanin Concentration",0.00124215843711753,0.873157808896603
+"320","WR1","Tidal Height","Phycocyanin Concentration",0.00655449740382036,0.720224917629026
+"321","AR1","Tidal Height","Phycoerytherin Concentration",0.00591827281798172,0.727173601383414
+"322","AR2","Tidal Height","Phycoerytherin Concentration",0.0221768159277627,0.477424861365402
+"323","AR3","Tidal Height","Phycoerytherin Concentration",0.000536634509322509,0.912479669194697
+"324","CC1","Tidal Height","Phycoerytherin Concentration",0.00235825774197554,0.821717809540746
+"325","CH1","Tidal Height","Phycoerytherin Concentration",0.00170502676512027,0.848078372659101
+"326","CH2","Tidal Height","Phycoerytherin Concentration",0.0195877663863711,0.53446519179926
+"327","CH3","Tidal Height","Phycoerytherin Concentration",0.0308697347641529,0.411527917202337
+"328","CS1","Tidal Height","Phycoerytherin Concentration",5.90406054550352e-05,0.970921598099939
+"329","FB1","Tidal Height","Phycoerytherin Concentration",0.0845772702219749,0.158432386077073
+"330","FC1","Tidal Height","Phycoerytherin Concentration",0.0156251429090174,0.560583711717146
+"331","HC1","Tidal Height","Phycoerytherin Concentration",0.0323876239935513,0.422890643824455
+"332","HC2","Tidal Height","Phycoerytherin Concentration",0.0385170567283636,0.347095519353887
+"333","JIC1","Tidal Height","Phycoerytherin Concentration",0.0266086203953926,0.45707016265404
+"334","JIC2","Tidal Height","Phycoerytherin Concentration",0.00778750851126697,0.674876496450458
+"335","SC1","Tidal Height","Phycoerytherin Concentration",0.00170904311111291,0.844450554632559
+"336","SC2","Tidal Height","Phycoerytherin Concentration",0.0653398001727619,0.217477238739836
+"337","SC3","Tidal Height","Phycoerytherin Concentration",0.000343824427506241,0.929897935278234
+"338","SR1","Tidal Height","Phycoerytherin Concentration",0.0106709372826388,0.64733630832087
+"339","WC1","Tidal Height","Phycoerytherin Concentration",0.0480338453681883,0.292527035366278
+"340","WR1","Tidal Height","Phycoerytherin Concentration",0.0405135558745294,0.345615870586806
+"341","AR1","Tidal Height","Phosphate",0.270830976392228,0.0467210858207319
+"342","AR2","Tidal Height","Phosphate",0.0813547657792435,0.267129076955108
+"343","AR3","Tidal Height","Phosphate",0.00464864960131279,0.794858518157245
+"344","CC1","Tidal Height","Phosphate",0.0232303953069665,0.559229569346788
+"345","CH1","Tidal Height","Phosphate",0.000387077111367429,0.94234752243901
+"346","CH2","Tidal Height","Phosphate",0.111193391884576,0.243984768718313
+"347","CH3","Tidal Height","Phosphate",0.221491506533019,0.0657929574293211
+"348","CS1","Tidal Height","Phosphate",0.0112676343298081,0.685127558714602
+"349","FB1","Tidal Height","Phosphate",0.17671886025707,0.09292971219565
+"350","FC1","Tidal Height","Phosphate",0.0120461897921089,0.685746288273833
+"351","HC1","Tidal Height","Phosphate",0.138675510656413,0.189782374776949
+"352","HC2","Tidal Height","Phosphate",0.0725554211972114,0.295795108764795
+"353","JIC1","Tidal Height","Phosphate",0.00275729475535067,0.852559448099143
+"354","JIC2","Tidal Height","Phosphate",0.190733955355085,0.0796377480213298
+"355","SC1","Tidal Height","Phosphate",0.00119918378497133,0.895029316177118
+"356","SC2","Tidal Height","Phosphate",0.0641756518926125,0.326557394603454
+"357","SC3","Tidal Height","Phosphate",0.0550077426484829,0.364885490603452
+"358","SR1","Tidal Height","Phosphate",0.0217629918584319,0.572054417980458
+"359","WC1","Tidal Height","Phosphate",0.0154561447004212,0.634499661100796
+"360","WR1","Tidal Height","Phosphate",0.194325944479031,0.0874358828720746
+"361","AR1","Tidal Height","Salinity",0.594807667892781,0.000178632828440486
+"362","AR2","Tidal Height","Salinity",0.480174308279658,0.000706543281549212
+"363","AR3","Tidal Height","Salinity",0.03456884615186,0.432552241625829
+"364","CC1","Tidal Height","Salinity",0.162556685741688,0.0779514990961568
+"365","CH1","Tidal Height","Salinity",0.265635700257365,0.0239166272442573
+"366","CH2","Tidal Height","Salinity",0.173518160009762,0.0962553083411745
+"367","CH3","Tidal Height","Salinity",0.268223296646421,0.0231258398223424
+"368","CS1","Tidal Height","Salinity",0.0312674400792435,0.455801159879758
+"369","FB1","Tidal Height","Salinity",0.107901939297497,0.157351875548213
+"370","FC1","Tidal Height","Salinity",0.252899265435111,0.028190229163429
+"371","HC1","Tidal Height","Salinity",0.186811931706772,0.0831591993617512
+"372","HC2","Tidal Height","Salinity",0.311904963278325,0.0104856955347203
+"373","JIC1","Tidal Height","Salinity",0.273488765729019,0.0259540362465305
+"374","JIC2","Tidal Height","Salinity",0.341260304148849,0.00683747378368709
+"375","SC1","Tidal Height","Salinity",0.0404804354208477,0.394994747119268
+"376","SC2","Tidal Height","Salinity",0.273388008804746,0.0180081193147422
+"377","SC3","Tidal Height","Salinity",0.467440171355877,0.000888321676612845
+"378","SR1","Tidal Height","Salinity",0.573215007638169,0.000433127086244038
+"379","WC1","Tidal Height","Salinity",0.290202033663365,0.014258255616315
+"380","WR1","Tidal Height","Salinity",0.0181164833440583,0.582746834217027
+"381","AR1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0396702465147503,0.374203193993736
+"382","AR2","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.163250972578191,0.0558627751547284
+"383","AR3","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0737605901712641,0.209993244693114
+"384","CC1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0346833960488828,0.406637194720466
+"385","CH1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.162789358519541,0.0625971125121981
+"386","CH2","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0187195335684351,0.554262540975875
+"387","CH3","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0345972030475729,0.407231326026867
+"388","CS1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.149700040372868,0.0681723663486911
+"389","FB1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.00178689683012006,0.848127895034243
+"390","FC1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0546957828698777,0.294851252514278
+"391","HC1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0736886774272576,0.233924102711255
+"392","HC2","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.00268895077400382,0.81422618239202
+"393","JIC1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.16824720072516,0.0579577993057149
+"394","JIC2","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0456676693823817,0.327536454510118
+"395","SC1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.042535039799972,0.345098348080602
+"396","SC2","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0179275467757604,0.542474530809391
+"397","SC3","Phycocyanin Concentration","Proportion of community attributible to cyanos",8.60163999247728e-05,0.966499303953388
+"398","SR1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.00195345872098759,0.853211946960301
+"399","WC1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0135795183147146,0.596453185358595
+"400","WR1","Phycocyanin Concentration","Proportion of community attributible to cyanos",0.0665430937878534,0.246432194174095
+"401","AR1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.00013323590484299,0.958312206222794
+"402","AR2","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0731765428372463,0.190922320998446
+"403","AR3","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.000228933904989635,0.942774179220535
+"404","CC1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0106800564824599,0.630840021964349
+"405","CH1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0734308398653079,0.200268316726117
+"406","CH2","Phycoerytherin Concentration","Proportion of community attributible to cyanos",8.62411656218931e-05,0.967282991343097
+"407","CH3","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0197709397463494,0.512251065870192
+"408","CS1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0215328105133085,0.483962516122406
+"409","FB1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.00666631435570867,0.698026301175628
+"410","FC1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0649370793032989,0.229473986018014
+"411","HC1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.050035638770322,0.316974646834976
+"412","HC2","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0329174519552156,0.385421018656984
+"413","JIC1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.091993217335387,0.159464646375933
+"414","JIC2","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.011657791719883,0.607445192854622
+"415","SC1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.000771190173087606,0.895167878091447
+"416","SC2","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.000887827119612152,0.887565169821159
+"417","SC3","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.000448348691072544,0.919977584477636
+"418","SR1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0133663039192049,0.608411767669658
+"419","WC1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0611197535358456,0.233480661046496
+"420","WR1","Phycoerytherin Concentration","Proportion of community attributible to cyanos",0.0888287134700514,0.157203304581865
+"421","AR1","Temperature","DinoA",0.131223593399304,0.0893855697354269
+"422","AR2","Temperature","DinoA",0.354336974179678,0.00169498038179296
+"423","AR3","Temperature","DinoA",0.156354922675791,0.0455635862458322
+"424","CC1","Temperature","DinoA",0.0676298504311888,0.230763225068222
+"425","CH1","Temperature","DinoA",0.213934116410333,0.0262644322916614
+"426","CH2","Temperature","DinoA",0.176154116269565,0.0518267765328376
+"427","CH3","Temperature","DinoA",0.142866538369448,0.0828479595955003
+"428","CS1","Temperature","DinoA",0.0928072074477871,0.13022508853001
+"429","FB1","Temperature","DinoA",0.00853723257696125,0.653484775466918
+"430","FC1","Temperature","DinoA",0.115694703911912,0.0961811479313866
+"431","HC1","Temperature","DinoA",0.0937513812725606,0.177047264914578
+"432","HC2","Temperature","DinoA",0.111408909532993,0.110938149423069
+"433","JIC1","Temperature","DinoA",0.218021357927158,0.0246895119957955
+"434","JIC2","Temperature","DinoA",0.121989564913005,0.0803073559027198
+"435","SC1","Temperature","DinoA",0.0673328716003559,0.220778217786459
+"436","SC2","Temperature","DinoA",0.0545947489243883,0.250635617124397
+"437","SC3","Temperature","DinoA",0.162101361406575,0.0414283383831231
+"438","SR1","Temperature","DinoA",0.0906079678770455,0.173426322730544
+"439","WC1","Temperature","DinoA",0.173990356511138,0.0340033947489662
+"440","WR1","Temperature","DinoA",0.0430270702773115,0.342261551739676
+"441","AR1","CDOM","DinoA",0.262236183131931,0.0509927989860035
+"442","AR2","CDOM","DinoA",1.05954322807885e-05,0.990107588965796
+"443","AR3","CDOM","DinoA",0.176525949000515,0.0931269323696225
+"444","CC1","CDOM","DinoA",0.131998048444198,0.151738247886519
+"445","CH1","CDOM","DinoA",0.00384789433637145,0.819477579557974
+"446","CH2","CDOM","DinoA",0.0336506480315273,0.530171633565005
+"447","CH3","CDOM","DinoA",0.0282722790856863,0.533630162510961
+"448","CS1","CDOM","DinoA",0.00577027678008014,0.771997694818436
+"449","FB1","CDOM","DinoA",0.000284228835558386,0.950586843143068
+"450","FC1","CDOM","DinoA",0.371632658768798,0.0121713330866364
+"451","HC1","CDOM","DinoA",0.298549603619876,0.0432141627342902
+"452","HC2","CDOM","DinoA",0.0797999326131971,0.271950326704113
+"453","JIC1","CDOM","DinoA",0.0387221489415562,0.482101576775277
+"454","JIC2","CDOM","DinoA",0.00749799909574845,0.741059403049174
+"455","SC1","CDOM","DinoA",0.0460757430020702,0.408049109970021
+"456","SC2","CDOM","DinoA",0.194754166955549,0.076177649375477
+"457","SC3","CDOM","DinoA",0.170417084968429,0.0995883498501406
+"458","SR1","CDOM","DinoA",0.000336567043199873,0.944285025350686
+"459","WC1","CDOM","DinoA",0.184373467112088,0.0854240644900052
+"460","WR1","CDOM","DinoA",0.183523739744637,0.0978155446557434
+"461","AR1","Salinity","DinoA",0.0438458776913127,0.404332046905556
+"462","AR2","Salinity","DinoA",0.0532340302639112,0.327735972539211
+"463","AR3","Salinity","DinoA",0.0499151561390074,0.343710098056351
+"464","CC1","Salinity","DinoA",0.04242020804082,0.383658507700993
+"465","CH1","Salinity","DinoA",0.000394045053697123,0.935712470605913
+"466","CH2","Salinity","DinoA",0.00220454588004996,0.857982934949561
+"467","CH3","Salinity","DinoA",0.0818245083927837,0.235139473152825
+"468","CS1","Salinity","DinoA",1.89133920786463e-05,0.985481881166623
+"469","FB1","Salinity","DinoA",0.02616848652264,0.49563726573602
+"470","FC1","Salinity","DinoA",0.0873258776451679,0.219330150721194
+"471","HC1","Salinity","DinoA",0.0117085481696933,0.679328505366256
+"472","HC2","Salinity","DinoA",0.0409582106639872,0.392160684466524
+"473","JIC1","Salinity","DinoA",0.0815674979014277,0.250622206232028
+"474","JIC2","Salinity","DinoA",0.0337792906153579,0.43795049708742
+"475","SC1","Salinity","DinoA",0.0144600873622713,0.613568147173168
+"476","SC2","Salinity","DinoA",0.00340311050291513,0.807001181266587
+"477","SC3","Salinity","DinoA",0.0743499116339566,0.244783728613055
+"478","SR1","Salinity","DinoA",0.00584364926494148,0.770588914012596
+"479","WC1","Salinity","DinoA",0.0307507693039107,0.459607869405338
+"480","WR1","Salinity","DinoA",0.123594894639785,0.139949534644897
+"481","AR1","Tidal Height","DinoA",0.0307150840510291,0.412720494737379
+"482","AR2","Tidal Height","DinoA",0.0124102428036896,0.587961953391525
+"483","AR3","Tidal Height","DinoA",8.18400341635034e-05,0.965015499457356
+"484","CC1","Tidal Height","DinoA",0.0871831135413565,0.151876475371516
+"485","CH1","Tidal Height","DinoA",0.00124999716135252,0.866757748269175
+"486","CH2","Tidal Height","DinoA",0.0289357835191406,0.437759031697675
+"487","CH3","Tidal Height","DinoA",0.0181985659634191,0.520271336154784
+"488","CS1","Tidal Height","DinoA",0.054565126580272,0.250767889441088
+"489","FB1","Tidal Height","DinoA",0.00118701484495971,0.867302248854955
+"490","FC1","Tidal Height","DinoA",0.0839182875396761,0.160137766523937
+"491","HC1","Tidal Height","DinoA",0.102217952758114,0.136975357636694
+"492","HC2","Tidal Height","DinoA",0.0746341417469648,0.176901276711169
+"493","JIC1","Tidal Height","DinoA",0.114550034060495,0.10572429670189
+"494","JIC2","Tidal Height","DinoA",0.00255408504839258,0.806319575601958
+"495","SC1","Tidal Height","DinoA",0.000892716191023436,0.884798084244169
+"496","SC2","Tidal Height","DinoA",0.00261120971182968,0.8042063921369
+"497","SC3","Tidal Height","DinoA",0.0184079906817571,0.508704030774237
+"498","SR1","Tidal Height","DinoA",0.00498901801764971,0.754774697797284
+"499","WC1","Tidal Height","DinoA",0.0128579842167828,0.581262676520975
+"500","WR1","Tidal Height","DinoA",0.000249857251206319,0.940220653399736
+"501","AR1","Phosphate","DinoA",0.106441304869066,0.235315851869338
+"502","AR2","Phosphate","DinoA",9.93972251576201e-06,0.990418564940781
+"503","AR3","Phosphate","DinoA",0.000625384580435468,0.924100641159999
+"504","CC1","Phosphate","DinoA",0.0380454992112365,0.453124695116712
+"505","CH1","Phosphate","DinoA",0.153679669560422,0.133160168129998
+"506","CH2","Phosphate","DinoA",0.194665130320621,0.114280668151868
+"507","CH3","Phosphate","DinoA",0.000497028165261094,0.934684798716596
+"508","CS1","Phosphate","DinoA",0.122627622570923,0.168214861664918
+"509","FB1","Phosphate","DinoA",0.0142562560703333,0.648075246197888
+"510","FC1","Phosphate","DinoA",0.000814621824877464,0.916434673765199
+"511","HC1","Phosphate","DinoA",0.224577143540433,0.086924718618779
+"512","HC2","Phosphate","DinoA",0.0023215095108168,0.85430105090806
+"513","JIC1","Phosphate","DinoA",0.0116114204729172,0.702276930502043
+"514","JIC2","Phosphate","DinoA",0.0761862842572843,0.28355073001514
+"515","SC1","Phosphate","DinoA",0.100817097688583,0.214278627860606
+"516","SC2","Phosphate","DinoA",0.253617388501084,0.039306726611503
+"517","SC3","Phosphate","DinoA",0.0669147036014907,0.316092729627143
+"518","SR1","Phosphate","DinoA",0.00196245055528909,0.865937414696493
+"519","WC1","Phosphate","DinoA",0.00544856328336545,0.778291314618513
+"520","WR1","Phosphate","DinoA",0.00212210670593631,0.865476640764158
+"521","AR1","Nitrate","DinoA",0.0352025127083337,0.503108285880603
+"522","AR2","Nitrate","DinoA",0.141199924165955,0.137167677031186
+"523","AR3","Nitrate","DinoA",0.015629796111055,0.632587981931785
+"524","CC1","Nitrate","DinoA",0.00426298871357239,0.803388809956527
+"525","CH1","Nitrate","DinoA",0.00904012753871807,0.726141551903919
+"526","CH2","Nitrate","DinoA",0.00410667174574469,0.827705964562343
+"527","CH3","Nitrate","DinoA",0.0363410200594079,0.479439056235487
+"528","CS1","Nitrate","DinoA",0.0413471987031252,0.43376600071296
+"529","FB1","Nitrate","DinoA",0.0229341029243963,0.561775719265439
+"530","FC1","Nitrate","DinoA",0.0785221319554106,0.293167983394663
+"531","HC1","Nitrate","DinoA",0.00238590291941562,0.868297447380261
+"532","HC2","Nitrate","DinoA",0.078344981072242,0.276553251002913
+"533","JIC1","Nitrate","DinoA",0.0182958022763383,0.630773226329859
+"534","JIC2","Nitrate","DinoA",1.111822182149e-05,0.989866487945343
+"535","SC1","Nitrate","DinoA",0.0348500475748101,0.473112009455169
+"536","SC2","Nitrate","DinoA",0.0689913193859749,0.308430692905402
+"537","SC3","Nitrate","DinoA",0.102188236253551,0.211017025859825
+"538","SR1","Nitrate","DinoA",0.100869113495207,0.214153899377824
+"539","WC1","Nitrate","DinoA",0.00406667260731673,0.80788795313052
+"540","WR1","Nitrate","DinoA",0.000242904167612318,0.954316233779762
+"541","AR1","Temperature","DinoB",0.00387761372493111,0.777745271045502
+"542","AR2","Temperature","DinoB",0.0730955253698217,0.191177729803804
+"543","AR3","Temperature","DinoB",0.0499197232166432,0.272565895382669
+"544","CC1","Temperature","DinoB",0.0754647487055169,0.204597539919536
+"545","CH1","Temperature","DinoB",0.0210870006838749,0.508547275532354
+"546","CH2","Temperature","DinoB",0.199536031509778,0.0371509749041541
+"547","CH3","Temperature","DinoB",0.000127653437860414,0.960200410495957
+"548","CS1","Temperature","DinoB",0.0182051553663797,0.511070332165097
+"549","FB1","Temperature","DinoB",0.13409025046564,0.0657909618709979
+"550","FC1","Temperature","DinoB",0.00027190518420817,0.937643686097677
+"551","HC1","Temperature","DinoB",0.00615761200646984,0.735288235312183
+"552","HC2","Temperature","DinoB",0.0226748226761824,0.482469648386454
+"553","JIC1","Temperature","DinoB",0.0685587544708247,0.227472383651947
+"554","JIC2","Temperature","DinoB",0.0141247018613993,0.563090696067738
+"555","SC1","Temperature","DinoB",0.00020553390142264,0.946989464913669
+"556","SC2","Temperature","DinoB",0.0521071493936072,0.262034155715841
+"557","SC3","Temperature","DinoB",0.00953609276974673,0.635084791492153
+"558","SR1","Temperature","DinoB",0.0441888739774232,0.347743087123645
+"559","WC1","Temperature","DinoB",0.0316768810345531,0.384373850182186
+"560","WR1","Temperature","DinoB",0.00789763522649577,0.686778398238461
+"561","AR1","CDOM","DinoB",0.0632024065215708,0.366079861967255
+"562","AR2","CDOM","DinoB",0.0109703934024772,0.68911087814214
+"563","AR3","CDOM","DinoB",0.0521240226325532,0.378125366441691
+"564","CC1","CDOM","DinoB",0.00219765515347501,0.85820294759165
+"565","CH1","CDOM","DinoB",0.165201869114707,0.118227015776593
+"566","CH2","CDOM","DinoB",0.0217045301921935,0.615244519633423
+"567","CH3","CDOM","DinoB",0.120600647328376,0.187539647823698
+"568","CS1","CDOM","DinoB",0.113196573696643,0.186690189956453
+"569","FB1","CDOM","DinoB",0.0226152408062339,0.578267487362059
+"570","FC1","CDOM","DinoB",0.332610071636761,0.0193494978571712
+"571","HC1","CDOM","DinoB",0.026985074839621,0.574676933193745
+"572","HC2","CDOM","DinoB",0.0144078278019947,0.646323634481806
+"573","JIC1","CDOM","DinoB",0.00921700649279382,0.733587953701333
+"574","JIC2","CDOM","DinoB",0.0637945111018833,0.328047125202029
+"575","SC1","CDOM","DinoB",0.0340404229314974,0.478390407332318
+"576","SC2","CDOM","DinoB",0.000765429227947092,0.916056829275185
+"577","SC3","CDOM","DinoB",0.0107786243670283,0.69171364432636
+"578","SR1","CDOM","DinoB",0.00223936796394617,0.856876479954911
+"579","WC1","CDOM","DinoB",0.0364128818901862,0.463173190694808
+"580","WR1","CDOM","DinoB",0.215724891381844,0.0699100096127774
+"581","AR1","Salinity","DinoB",4.14546464775609e-06,0.9936026368255
+"582","AR2","Salinity","DinoB",0.0116917355149371,0.649999719596504
+"583","AR3","Salinity","DinoB",0.114231461656835,0.144986589647885
+"584","CC1","Salinity","DinoB",0.00802871327034812,0.707160486270116
+"585","CH1","Salinity","DinoB",0.00118670866638118,0.888656163389067
+"586","CH2","Salinity","DinoB",0.080994474993179,0.268237436763868
+"587","CH3","Salinity","DinoB",0.013117967381201,0.640578977306171
+"588","CS1","Salinity","DinoB",0.0309458109463448,0.458165208584921
+"589","FB1","Salinity","DinoB",0.000343664323876044,0.938167491843305
+"590","FC1","Salinity","DinoB",0.0916779975372331,0.207656340242162
+"591","HC1","Salinity","DinoB",0.012949032019221,0.663661439915858
+"592","HC2","Salinity","DinoB",0.172915903734989,0.0682254000867207
+"593","JIC1","Salinity","DinoB",0.206083938806076,0.058439707224229
+"594","JIC2","Salinity","DinoB",0.00496145426429407,0.767925208186675
+"595","SC1","Salinity","DinoB",0.0126066006370334,0.637433047878397
+"596","SC2","Salinity","DinoB",0.0558759489849077,0.315680914964008
+"597","SC3","Salinity","DinoB",0.0406150625506964,0.394193338663753
+"598","SR1","Salinity","DinoB",0.234598181282872,0.0488091843881502
+"599","WC1","Salinity","DinoB",0.00267048687789963,0.828700396293349
+"600","WR1","Salinity","DinoB",0.0287698558632992,0.487553382108255
+"601","AR1","Tidal Height","DinoB",0.0178240936674373,0.53399034043847
+"602","AR2","Tidal Height","DinoB",0.0857681457974823,0.146522929277163
+"603","AR3","Tidal Height","DinoB",0.000836056914847188,0.888490733244819
+"604","CC1","Tidal Height","DinoB",0.0164279409504367,0.541480993257083
+"605","CH1","Tidal Height","DinoB",0.0865196193779507,0.153517790326462
+"606","CH2","Tidal Height","DinoB",0.0180218107842733,0.541405395149096
+"607","CH3","Tidal Height","DinoB",0.0401330247082926,0.336973966649865
+"608","CS1","Tidal Height","DinoB",0.10669798488491,0.103377604460505
+"609","FB1","Tidal Height","DinoB",0.000376661527792044,0.92502798516959
+"610","FC1","Tidal Height","DinoB",0.0026513186977792,0.806893225570922
+"611","HC1","Tidal Height","DinoB",0.0743467821516499,0.208119607553154
+"612","HC2","Tidal Height","DinoB",0.105071407148257,0.106200504404747
+"613","JIC1","Tidal Height","DinoB",0.239802123894024,0.0151450786379129
+"614","JIC2","Tidal Height","DinoB",0.0614938535366773,0.221913697214949
+"615","SC1","Tidal Height","DinoB",0.0258557933127586,0.432622743426871
+"616","SC2","Tidal Height","DinoB",0.0348219808640686,0.361364830925639
+"617","SC3","Tidal Height","DinoB",0.0275934228388895,0.417358522803598
+"618","SR1","Tidal Height","DinoB",0.101925455366624,0.147543886708448
+"619","WC1","Tidal Height","DinoB",0.0175165056441793,0.519245007877742
+"620","WR1","Tidal Height","DinoB",0.0105426464141568,0.625268177981966
+"621","AR1","Phosphate","DinoB",0.00186783883025064,0.878450880002973
+"622","AR2","Phosphate","DinoB",0.0426171804965862,0.426638548671274
+"623","AR3","Phosphate","DinoB",0.104307452915803,0.20608138584516
+"624","CC1","Phosphate","DinoB",0.0194308594036288,0.593633547356284
+"625","CH1","Phosphate","DinoB",0.198783158465529,0.0834701539325369
+"626","CH2","Phosphate","DinoB",0.137089553538052,0.192535571521439
+"627","CH3","Phosphate","DinoB",0.195863632885383,0.0860477092748999
+"628","CS1","Phosphate","DinoB",0.02673635773291,0.530612960869712
+"629","FB1","Phosphate","DinoB",0.0601784548125874,0.342610125959481
+"630","FC1","Phosphate","DinoB",0.0303818747043093,0.518518317183764
+"631","HC1","Phosphate","DinoB",0.369059370546364,0.0212032505779403
+"632","HC2","Phosphate","DinoB",0.0311135399032322,0.498266315754484
+"633","JIC1","Phosphate","DinoB",0.00699242794482367,0.767013040206185
+"634","JIC2","Phosphate","DinoB",0.000264657561794281,0.950586463316716
+"635","SC1","Phosphate","DinoB",0.0786962221262728,0.275433830101156
+"636","SC2","Phosphate","DinoB",0.274513448331699,0.0308683898346027
+"637","SC3","Phosphate","DinoB",0.0831937477314296,0.261553152763545
+"638","SR1","Phosphate","DinoB",0.000345516876967011,0.94355020643586
+"639","WC1","Phosphate","DinoB",0.00142344508917046,0.88568984798658
+"640","WR1","Phosphate","DinoB",0.348913257101609,0.0159842378901009
+"641","AR1","Nitrate","DinoB",0.186112604482817,0.108360028955732
+"642","AR2","Nitrate","DinoB",0.183574107816252,0.0861794435329149
+"643","AR3","Nitrate","DinoB",0.0623788084496502,0.333654823166058
+"644","CC1","Nitrate","DinoB",0.0906194252628121,0.240344890197084
+"645","CH1","Nitrate","DinoB",0.334438991998002,0.0189425231460206
+"646","CH2","Nitrate","DinoB",0.114048945939285,0.237647402261755
+"647","CH3","Nitrate","DinoB",0.011426060079467,0.693566613194756
+"648","CS1","Nitrate","DinoB",0.0116065657795268,0.680658481203421
+"649","FB1","Nitrate","DinoB",0.00544260094024453,0.778409810483366
+"650","FC1","Nitrate","DinoB",0.00497152073990957,0.795264782323796
+"651","HC1","Nitrate","DinoB",0.034113502842672,0.527306947997318
+"652","HC2","Nitrate","DinoB",0.129857958914906,0.155348297367274
+"653","JIC1","Nitrate","DinoB",0.212892698021156,0.0834113013950083
+"654","JIC2","Nitrate","DinoB",0.0182947020501276,0.604742167642209
+"655","SC1","Nitrate","DinoB",0.0108304137879388,0.69100814716797
+"656","SC2","Nitrate","DinoB",0.0156666920400525,0.63218345671386
+"657","SC3","Nitrate","DinoB",0.00422578310685624,0.804232956394772
+"658","SR1","Nitrate","DinoB",0.0495032513604852,0.390714743684522
+"659","WC1","Nitrate","DinoB",0.00178356122897237,0.872144265327471
+"660","WR1","Nitrate","DinoB",0.176154581425625,0.105572689464889
+"661","AR1","Temperature","Cyanos",0.0633774041450505,0.24653873168443
+"662","AR2","Temperature","Cyanos",0.313836940203564,0.00358602110141808
+"663","AR3","Temperature","Cyanos",0.0177219478662643,0.516783109140251
+"664","CC1","Temperature","Cyanos",0.162893324878674,0.0561576608575986
+"665","CH1","Temperature","Cyanos",0.378832427158746,0.00177047875928912
+"666","CH2","Temperature","Cyanos",0.218275095440399,0.0283604997774273
+"667","CH3","Temperature","Cyanos",0.185591004255051,0.0453312836449291
+"668","CS1","Temperature","Cyanos",0.159073764914291,0.0435589720229761
+"669","FB1","Temperature","Cyanos",0.0813781231393096,0.157772492793134
+"670","FC1","Temperature","Cyanos",0.0398444169701176,0.338753462160781
+"671","HC1","Temperature","Cyanos",0.149963238652208,0.0828547769629048
+"672","HC2","Temperature","Cyanos",0.127999905923838,0.0860723169487631
+"673","JIC1","Temperature","Cyanos",0.194362057592966,0.0352353113642733
+"674","JIC2","Temperature","Cyanos",0.0158010125134545,0.540624306281328
+"675","SC1","Temperature","Cyanos",0.119390773436524,0.0981746350854865
+"676","SC2","Temperature","Cyanos",0.095778321426439,0.12392865095074
+"677","SC3","Temperature","Cyanos",0.0386900870708266,0.335500981444835
+"678","SR1","Temperature","Cyanos",0.0421108247240247,0.35959572083708
+"679","WC1","Temperature","Cyanos",0.0692456004234721,0.194003265886727
+"680","WR1","Temperature","Cyanos",0.200844823079187,0.031980197792277
+"681","AR1","CDOM","Cyanos",1.19388477836889e-07,0.999024899874752
+"682","AR2","CDOM","Cyanos",0.00339000424598725,0.824341510525461
+"683","AR3","CDOM","Cyanos",0.157176979521464,0.115144021151596
+"684","CC1","CDOM","Cyanos",0.000406761543979388,0.938759311596761
+"685","CH1","CDOM","Cyanos",0.033226096576339,0.499248851757577
+"686","CH2","CDOM","Cyanos",0.250857169426,0.0681064162339651
+"687","CH3","CDOM","Cyanos",0.0556531356923141,0.379075372010362
+"688","CS1","CDOM","Cyanos",0.0306132357426397,0.501796052626511
+"689","FB1","CDOM","Cyanos",0.00303985619243922,0.839289027769932
+"690","FC1","CDOM","Cyanos",0.11033414774461,0.208771786519474
+"691","HC1","CDOM","Cyanos",0.138910892805112,0.189377248834197
+"692","HC2","CDOM","Cyanos",0.103537716437087,0.207859492517448
+"693","JIC1","CDOM","Cyanos",0.0180549415654615,0.63305226512525
+"694","JIC2","CDOM","Cyanos",0.00213091007305717,0.8603526681617
+"695","SC1","CDOM","Cyanos",0.0729425354496911,0.294460260685159
+"696","SC2","CDOM","Cyanos",0.137186755461769,0.143338294878883
+"697","SC3","CDOM","Cyanos",0.0258074572789099,0.537938046949618
+"698","SR1","CDOM","Cyanos",0.0654088608122588,0.321794077453899
+"699","WC1","CDOM","Cyanos",0.0579214055008782,0.352113355976596
+"700","WR1","CDOM","Cyanos",0.384840996774547,0.0103504434515037
+"701","AR1","Salinity","Cyanos",0.040774333806457,0.421670345818965
+"702","AR2","Salinity","Cyanos",0.014282000761268,0.615776735121407
+"703","AR3","Salinity","Cyanos",0.0104763843653154,0.667632845571179
+"704","CC1","Salinity","Cyanos",0.0103412614225698,0.669666114887161
+"705","CH1","Salinity","Cyanos",0.0480568533271991,0.367206007946742
+"706","CH2","Salinity","Cyanos",0.0050602732362967,0.786158556310388
+"707","CH3","Salinity","Cyanos",0.063506947565063,0.297962168100441
+"708","CS1","Salinity","Cyanos",0.0973566481598065,0.180481777377008
+"709","FB1","Salinity","Cyanos",0.0575650337513105,0.308260209380796
+"710","FC1","Salinity","Cyanos",0.00285451640170984,0.828029194674111
+"711","HC1","Salinity","Cyanos",0.00521938423030328,0.782897070095999
+"712","HC2","Salinity","Cyanos",0.00769656966984421,0.713030782313359
+"713","JIC1","Salinity","Cyanos",0.00730031287346245,0.736047467046941
+"714","JIC2","Salinity","Cyanos",1.8096741289259e-05,0.985798743597
+"715","SC1","Salinity","Cyanos",0.000966216780376651,0.8964937293893
+"716","SC2","Salinity","Cyanos",0.147762555037596,0.0942478678808538
+"717","SC3","Salinity","Cyanos",0.0082035793785613,0.704124906152476
+"718","SR1","Salinity","Cyanos",0.0112141181807657,0.685840241344796
+"719","WC1","Salinity","Cyanos",0.00600343886189322,0.745418438148693
+"720","WR1","Salinity","Cyanos",0.00137524459950202,0.880193669645499
+"721","AR1","Tidal Height","Cyanos",0.0101238514610875,0.639928652254773
+"722","AR2","Tidal Height","Cyanos",0.00473108414111212,0.738476222488442
+"723","AR3","Tidal Height","Cyanos",0.000735431665092997,0.89537772868318
+"724","CC1","Tidal Height","Cyanos",0.0470710714699898,0.297537005959571
+"725","CH1","Tidal Height","Cyanos",0.0076885619558668,0.676838588143642
+"726","CH2","Tidal Height","Cyanos",0.0368153366764191,0.380450848797009
+"727","CH3","Tidal Height","Cyanos",0.127604512517792,0.0795993939804102
+"728","CS1","Tidal Height","Cyanos",0.165696731413237,0.039030298012031
+"729","FB1","Tidal Height","Cyanos",0.0116080360130661,0.600360716951324
+"730","FC1","Tidal Height","Cyanos",0.00534348193105535,0.728404509336506
+"731","HC1","Tidal Height","Cyanos",0.119544549714143,0.106096281359851
+"732","HC2","Tidal Height","Cyanos",0.0287806071934576,0.407371554306353
+"733","JIC1","Tidal Height","Cyanos",0.0268759101560476,0.443998055465979
+"734","JIC2","Tidal Height","Cyanos",0.140768905779896,0.0589343672325767
+"735","SC1","Tidal Height","Cyanos",0.0209481369370906,0.48053816719975
+"736","SC2","Tidal Height","Cyanos",0.0654410441747986,0.207177094513312
+"737","SC3","Tidal Height","Cyanos",0.00218459781056215,0.82063449673443
+"738","SR1","Tidal Height","Cyanos",5.0887066173105e-05,0.974865743484945
+"739","WC1","Tidal Height","Cyanos",0.00391921289618996,0.761268320210709
+"740","WR1","Tidal Height","Cyanos",0.0787124295424677,0.174324788405355
+"741","AR1","Phosphate","Cyanos",0.059925331685686,0.379221512132021
+"742","AR2","Phosphate","Cyanos",0.0145514436378913,0.644674051237973
+"743","AR3","Phosphate","Cyanos",0.0860016526182237,0.253293973125815
+"744","CC1","Phosphate","Cyanos",0.037613465426248,0.455751731555513
+"745","CH1","Phosphate","Cyanos",0.0506380457703658,0.402071790283966
+"746","CH2","Phosphate","Cyanos",0.132850038299045,0.200101348795573
+"747","CH3","Phosphate","Cyanos",0.0471348557625244,0.419274417848275
+"748","CS1","Phosphate","Cyanos",0.0227263542594381,0.563573813438044
+"749","FB1","Phosphate","Cyanos",0.0192325548512796,0.59554259134926
+"750","FC1","Phosphate","Cyanos",0.00975627118199154,0.715904309511741
+"751","HC1","Phosphate","Cyanos",0.0934373091580501,0.287870324366274
+"752","HC2","Phosphate","Cyanos",0.214874690002851,0.0609172994867968
+"753","JIC1","Phosphate","Cyanos",0.00725381015004072,0.76281136013847
+"754","JIC2","Phosphate","Cyanos",0.0238293966328774,0.554146399430231
+"755","SC1","Phosphate","Cyanos",0.11895875597396,0.175162928106421
+"756","SC2","Phosphate","Cyanos",0.362190891588961,0.0105883316951405
+"757","SC3","Phosphate","Cyanos",0.000500244222383618,0.93209945787235
+"758","SR1","Phosphate","Cyanos",0.0116479914613654,0.680117429856232
+"759","WC1","Phosphate","Cyanos",0.0841249399476959,0.258780606575123
+"760","WR1","Phosphate","Cyanos",0.0200255648803951,0.6011316627459
+"761","AR1","Nitrate","Cyanos",0.0690252341885315,0.344135645946296
+"762","AR2","Nitrate","Cyanos",0.0179699317694675,0.607996199634369
+"763","AR3","Nitrate","Cyanos",0.0106752829797259,0.693127208092784
+"764","CC1","Nitrate","Cyanos",0.028890294173942,0.514270899846746
+"765","CH1","Nitrate","Cyanos",0.029286930462286,0.526269311248807
+"766","CH2","Nitrate","Cyanos",0.0691806088760558,0.363598924625639
+"767","CH3","Nitrate","Cyanos",0.00148541384439887,0.88730883878019
+"768","CS1","Nitrate","Cyanos",0.00185057082539482,0.869783465841758
+"769","FB1","Nitrate","Cyanos",0.162023328022032,0.109189673762684
+"770","FC1","Nitrate","Cyanos",0.0179562946595961,0.620765098608793
+"771","HC1","Nitrate","Cyanos",0.227443609192258,0.0846578157321992
+"772","HC2","Nitrate","Cyanos",0.112886974391853,0.187331804431399
+"773","JIC1","Nitrate","Cyanos",0.0886490105005429,0.281129291919513
+"774","JIC2","Nitrate","Cyanos",0.089186591196279,0.244281383245773
+"775","SC1","Nitrate","Cyanos",0.050841051795081,0.384219582252368
+"776","SC2","Nitrate","Cyanos",0.0177594401014503,0.610124710348696
+"777","SC3","Nitrate","Cyanos",0.0747202699981196,0.288421189279472
+"778","SR1","Nitrate","Cyanos",1.24560881739546e-05,0.989274145550286
+"779","WC1","Nitrate","Cyanos",0.0302462795647863,0.504410956048157
+"780","WR1","Nitrate","Cyanos",0.00311951736949347,0.837222739999786
+"781","AR1","Temperature","PrasinoA",0.0289866047555286,0.437350960340188
+"782","AR2","Temperature","PrasinoA",0.0286459808018208,0.418635381354795
+"783","AR3","Temperature","PrasinoA",0.0721697506338224,0.18450806473145
+"784","CC1","Temperature","PrasinoA",0.0260323259204322,0.462051095771379
+"785","CH1","Temperature","PrasinoA",0.068626422216528,0.227234742479783
+"786","CH2","Temperature","PrasinoA",0.000807846837077168,0.900082540508802
+"787","CH3","Temperature","PrasinoA",0.0345020560662589,0.407888592827203
+"788","CS1","Temperature","PrasinoA",0.00861113293239044,0.652080646942231
+"789","FB1","Temperature","PrasinoA",0.178612422379876,0.0314813411826804
+"790","FC1","Temperature","PrasinoA",0.0904906629396384,0.143968010629955
+"791","HC1","Temperature","PrasinoA",0.0010216053586221,0.890606717137532
+"792","HC2","Temperature","PrasinoA",0.000436645781358499,0.922794055090601
+"793","JIC1","Temperature","PrasinoA",0.00855331298026917,0.674700802882336
+"794","JIC2","Temperature","PrasinoA",0.00425039350942624,0.751685060940227
+"795","SC1","Temperature","PrasinoA",0.038648525072447,0.357198053799818
+"796","SC2","Temperature","PrasinoA",0.0739257139985287,0.179052241286078
+"797","SC3","Temperature","PrasinoA",0.000342934382222465,0.928454433356826
+"798","SR1","Temperature","PrasinoA",0.0347773923147697,0.405990659452363
+"799","WC1","Temperature","PrasinoA",0.0524770736976492,0.260301114658711
+"800","WR1","Temperature","PrasinoA",0.00677460016368974,0.708883025065565
+"801","AR1","CDOM","PrasinoA",0.0355562987517022,0.50093124678026
+"802","AR2","CDOM","PrasinoA",5.34070794072463e-05,0.977792383729712
+"803","AR3","CDOM","PrasinoA",0.0148362674768731,0.641431029985253
+"804","CC1","CDOM","PrasinoA",0.125056046438489,0.163774518797065
+"805","CH1","CDOM","PrasinoA",0.0543984909411206,0.384659995395366
+"806","CH2","CDOM","PrasinoA",0.220132748667968,0.090552884741778
+"807","CH3","CDOM","PrasinoA",0.258612105784265,0.0442735303012113
+"808","CS1","CDOM","PrasinoA",0.00260492648524824,0.845757882150506
+"809","FB1","CDOM","PrasinoA",0.0929280788547498,0.250951608459483
+"810","FC1","CDOM","PrasinoA",0.00916929227165495,0.724262642672856
+"811","HC1","CDOM","PrasinoA",0.2210020696469,0.0898321646520553
+"812","HC2","CDOM","PrasinoA",0.149768730839549,0.124876404219983
+"813","JIC1","CDOM","PrasinoA",0.0600253365345201,0.378811460300247
+"814","JIC2","CDOM","PrasinoA",0.00124139559531375,0.893207540780182
+"815","SC1","CDOM","PrasinoA",0.0720491775536584,0.297551615197401
+"816","SC2","CDOM","PrasinoA",0.00158104999989661,0.87956874937556
+"817","SC3","CDOM","PrasinoA",0.0325446308609685,0.488387546904885
+"818","SR1","CDOM","PrasinoA",0.0019418415720059,0.866637270569804
+"819","WC1","CDOM","PrasinoA",3.63729396159631e-05,0.981672308807833
+"820","WR1","CDOM","PrasinoA",1.12105707808961e-05,0.990181175428281
+"821","AR1","Salinity","PrasinoA",0.00393224710876147,0.804762076098627
+"822","AR2","Salinity","PrasinoA",0.00132908475842839,0.87872083233805
+"823","AR3","Salinity","PrasinoA",9.61360398504072e-05,0.967275025032031
+"824","CC1","Salinity","PrasinoA",0.232045317391619,0.0315054342054059
+"825","CH1","Salinity","PrasinoA",0.255498082974586,0.0272641859411008
+"826","CH2","Salinity","PrasinoA",0.0653555089983807,0.321998375228647
+"827","CH3","Salinity","PrasinoA",0.190846772993941,0.0614571042685254
+"828","CS1","Salinity","PrasinoA",0.290471434924944,0.0142045666570443
+"829","FB1","Salinity","PrasinoA",0.154751471589257,0.0861674839436088
+"830","FC1","Salinity","PrasinoA",0.00305506214881349,0.822179576314089
+"831","HC1","Salinity","PrasinoA",0.0278112589850432,0.522349072833182
+"832","HC2","Salinity","PrasinoA",0.0116611029939104,0.650430483008206
+"833","JIC1","Salinity","PrasinoA",0.659040684829691,4.30023098790579e-05
+"834","JIC2","Salinity","PrasinoA",0.233787983885407,0.0307828633304008
+"835","SC1","Salinity","PrasinoA",0.110001751984267,0.153131924188736
+"836","SC2","Salinity","PrasinoA",0.0791861151435809,0.229400475976666
+"837","SC3","Salinity","PrasinoA",0.033262971401006,0.441534101829574
+"838","SR1","Salinity","PrasinoA",0.136000759715831,0.145215418336522
+"839","WC1","Salinity","PrasinoA",0.00505616522110341,0.765779308064259
+"840","WR1","Salinity","PrasinoA",1.0109779292134e-06,0.996740498041596
+"841","AR1","Tidal Height","PrasinoA",0.000971089539244416,0.885067412209442
+"842","AR2","Tidal Height","PrasinoA",0.00869341747401382,0.650525634965001
+"843","AR3","Tidal Height","PrasinoA",0.000516613940875821,0.912242552777077
+"844","CC1","Tidal Height","PrasinoA",0.16406786548596,0.044578695850466
+"845","CH1","Tidal Height","PrasinoA",0.0611846725322867,0.233224525364192
+"846","CH2","Tidal Height","PrasinoA",0.0109071172715102,0.635334448785759
+"847","CH3","Tidal Height","PrasinoA",0.00212222183817574,0.826913996311235
+"848","CS1","Tidal Height","PrasinoA",0.00640349173942121,0.697579851920834
+"849","FB1","Tidal Height","PrasinoA",0.0645965477827029,0.210234896519546
+"850","FC1","Tidal Height","PrasinoA",0.244413417672611,0.0120012055866872
+"851","HC1","Tidal Height","PrasinoA",0.0384441204994177,0.369913229745915
+"852","HC2","Tidal Height","PrasinoA",0.000475602006650877,0.915785283241265
+"853","JIC1","Tidal Height","PrasinoA",0.146805458831609,0.0645877867631969
+"854","JIC2","Tidal Height","PrasinoA",0.229988603078551,0.0131713153228608
+"855","SC1","Tidal Height","PrasinoA",0.0150423858568961,0.550584080995224
+"856","SC2","Tidal Height","PrasinoA",0.0244005009652404,0.446045852934425
+"857","SC3","Tidal Height","PrasinoA",0.00890279593042602,0.646608012315862
+"858","SR1","Tidal Height","PrasinoA",0.0452666094395197,0.341794952587595
+"859","WC1","Tidal Height","PrasinoA",0.0736149971777504,0.180004649446262
+"860","WR1","Tidal Height","PrasinoA",0.0160004895399939,0.546832318086162
+"861","AR1","Phosphate","PrasinoA",0.0463152034083727,0.441129783280439
+"862","AR2","Phosphate","PrasinoA",0.0667908769907485,0.31655687405664
+"863","AR3","Phosphate","PrasinoA",0.599326951903353,0.000264823082542158
+"864","CC1","Phosphate","PrasinoA",0.169300930128347,0.100815486217945
+"865","CH1","Phosphate","PrasinoA",0.0357735001774629,0.482954839349752
+"866","CH2","Phosphate","PrasinoA",0.000715220759486844,0.927690432018573
+"867","CH3","Phosphate","PrasinoA",0.268372795577944,0.0398215597648046
+"868","CS1","Phosphate","PrasinoA",0.0795351752475738,0.272781269599478
+"869","FB1","Phosphate","PrasinoA",0.127755888323328,0.158980383942067
+"870","FC1","Phosphate","PrasinoA",0.039159840796165,0.46254778395811
+"871","HC1","Phosphate","PrasinoA",0.0359886996183905,0.515963881155957
+"872","HC2","Phosphate","PrasinoA",0.079084276152346,0.274203198756137
+"873","JIC1","Phosphate","PrasinoA",0.0393726671783355,0.478370214957667
+"874","JIC2","Phosphate","PrasinoA",0.140953878556118,0.137538113247032
+"875","SC1","Phosphate","PrasinoA",0.0256944167626252,0.538841521056844
+"876","SC2","Phosphate","PrasinoA",0.000948448339458496,0.90659553430913
+"877","SC3","Phosphate","PrasinoA",0.0327813746863826,0.486783452057221
+"878","SR1","Phosphate","PrasinoA",0.0365816456834913,0.462119006481896
+"879","WC1","Phosphate","PrasinoA",0.00414420223039536,0.806097748786149
+"880","WR1","Phosphate","PrasinoA",0.0287886556161198,0.529862099257996
+"881","AR1","Nitrate","PrasinoA",0.0677670356306725,0.348733460374904
+"882","AR2","Nitrate","PrasinoA",0.00117882546546012,0.895919579551403
+"883","AR3","Nitrate","PrasinoA",0.0119476839042724,0.676235883353179
+"884","CC1","Nitrate","PrasinoA",0.0627385568470225,0.332218622073416
+"885","CH1","Nitrate","PrasinoA",0.00396243384305201,0.816852289912289
+"886","CH2","Nitrate","PrasinoA",0.018152715617341,0.646073498772881
+"887","CH3","Nitrate","PrasinoA",0.0130017361597657,0.674135726689668
+"888","CS1","Nitrate","PrasinoA",0.00750575141088104,0.74092989036061
+"889","FB1","Nitrate","PrasinoA",0.126591268776484,0.161030334525254
+"890","FC1","Nitrate","PrasinoA",0.095766826386663,0.243473623288006
+"891","HC1","Nitrate","PrasinoA",0.0892871812856992,0.299382292922754
+"892","HC2","Nitrate","PrasinoA",0.0284142608791047,0.517808600827564
+"893","JIC1","Nitrate","PrasinoA",0.187722411333806,0.10667645694706
+"894","JIC2","Nitrate","PrasinoA",0.0526683148993324,0.375578642819365
+"895","SC1","Nitrate","PrasinoA",0.0230795222122032,0.560523408191869
+"896","SC2","Nitrate","PrasinoA",0.0453744878978537,0.411725351140897
+"897","SC3","Nitrate","PrasinoA",0.0768688572812948,0.28131602232839
+"898","SR1","Nitrate","PrasinoA",0.00174767500216749,0.873427243586209
+"899","WC1","Nitrate","PrasinoA",0.0496632186000648,0.389930360621139
+"900","WR1","Nitrate","PrasinoA",0.0129034750166101,0.675306458795441
+"901","AR1","Temperature","PrasinoB",0.0743403841346687,0.208139956802187
+"902","AR2","Temperature","PrasinoB",0.0419612642769711,0.325974608947345
+"903","AR3","Temperature","PrasinoB",0.0280167212877958,0.413757967717519
+"904","CC1","Temperature","PrasinoB",0.042036612783104,0.348003040694396
+"905","CH1","Temperature","PrasinoB",0.0309176995414362,0.422248060343269
+"906","CH2","Temperature","PrasinoB",0.0550030644863316,0.293459829847184
+"907","CH3","Temperature","PrasinoB",0.0858829819455118,0.18563232335594
+"908","CS1","Temperature","PrasinoB",0.02963108238099,0.400423924797732
+"909","FB1","Temperature","PrasinoB",0.000244665420462283,0.939546717512128
+"910","FC1","Temperature","PrasinoB",0.113132222367124,0.100184620422225
+"911","HC1","Temperature","PrasinoB",0.063636549851099,0.269944782383405
+"912","HC2","Temperature","PrasinoB",0.0356937894881411,0.376617629495066
+"913","JIC1","Temperature","PrasinoB",0.0194806780626119,0.525322687253427
+"914","JIC2","Temperature","PrasinoB",0.0643926228372437,0.210980849662167
+"915","SC1","Temperature","PrasinoB",0.0199838021906045,0.509965921057535
+"916","SC2","Temperature","PrasinoB",0.069251951619021,0.193982067036706
+"917","SC3","Temperature","PrasinoB",0.0271109270822076,0.421517714452157
+"918","SR1","Temperature","PrasinoB",0.0272662319205117,0.462729858549642
+"919","WC1","Temperature","PrasinoB",0.090155822629391,0.136127314351807
+"920","WR1","Temperature","PrasinoB",0.0643378463314592,0.242870373910332
+"921","AR1","CDOM","PrasinoB",8.13203140010152e-06,0.99195249697852
+"922","AR2","CDOM","PrasinoB",0.00378907818405806,0.814449631975823
+"923","AR3","CDOM","PrasinoB",0.000643045920999824,0.923039317631169
+"924","CC1","CDOM","PrasinoB",0.427401198958031,0.00442061013313961
+"925","CH1","CDOM","PrasinoB",2.43542243853725e-06,0.995423426814443
+"926","CH2","CDOM","PrasinoB",0.00771186925635247,0.765303335639742
+"927","CH3","CDOM","PrasinoB",0.0672348869746732,0.33215726405524
+"928","CS1","CDOM","PrasinoB",0.00110913402598947,0.89902780662171
+"929","FB1","CDOM","PrasinoB",0.00318731034730376,0.835485755295537
+"930","FC1","CDOM","PrasinoB",6.72404068402091e-05,0.97595569991795
+"931","HC1","CDOM","PrasinoB",0.274146265899835,0.0546609440192599
+"932","HC2","CDOM","PrasinoB",0.000201901489787922,0.956834916728316
+"933","JIC1","CDOM","PrasinoB",0.0240228559354516,0.581249963369572
+"934","JIC2","CDOM","PrasinoB",0.000167780002535043,0.960648162132331
+"935","SC1","CDOM","PrasinoB",0.000216329536179467,0.955320617965445
+"936","SC2","CDOM","PrasinoB",0.0858562985665708,0.253714167103417
+"937","SC3","CDOM","PrasinoB",0.0509394195564014,0.383747719937087
+"938","SR1","CDOM","PrasinoB",0.0474415071222204,0.401018318786474
+"939","WC1","CDOM","PrasinoB",0.0436340217722982,0.421051574346224
+"940","WR1","CDOM","PrasinoB",0.0027400626814811,0.847328173560059
+"941","AR1","Salinity","PrasinoB",0.0717251769343158,0.282618596683213
+"942","AR2","Salinity","PrasinoB",0.0754080447784051,0.241320567640517
+"943","AR3","Salinity","PrasinoB",0.00176205515506514,0.860517611328343
+"944","CC1","Salinity","PrasinoB",0.0166270350710426,0.587954207529417
+"945","CH1","Salinity","PrasinoB",0.0862227756720813,0.22240279972347
+"946","CH2","Salinity","PrasinoB",0.061968286315855,0.335303189389066
+"947","CH3","Salinity","PrasinoB",0.0696322187026522,0.274996002510365
+"948","CS1","Salinity","PrasinoB",0.00134352491419014,0.878068464782467
+"949","FB1","Salinity","PrasinoB",0.0133042173960649,0.628214798655591
+"950","FC1","Salinity","PrasinoB",2.09297982571215e-05,0.985169994780735
+"951","HC1","Salinity","PrasinoB",0.0728847790198976,0.294658961612783
+"952","HC2","Salinity","PrasinoB",0.156447625197575,0.0843123508062749
+"953","JIC1","Salinity","PrasinoB",0.0327583063168009,0.4723082245004
+"954","JIC2","Salinity","PrasinoB",0.016536293160503,0.588983214469974
+"955","SC1","Salinity","PrasinoB",0.10564233154669,0.162029658296887
+"956","SC2","Salinity","PrasinoB",0.120992157747328,0.132888157434297
+"957","SC3","Salinity","PrasinoB",0.000727053564085097,0.910155975686275
+"958","SR1","Salinity","PrasinoB",0.120683631333692,0.171859740839317
+"959","WC1","Salinity","PrasinoB",0.000790919282014062,0.906308930486647
+"960","WR1","Salinity","PrasinoB",0.170647553983,0.0787658149814018
+"961","AR1","Tidal Height","PrasinoB",0.0166356938152112,0.548070600473493
+"962","AR2","Tidal Height","PrasinoB",0.0967534961969705,0.121932044381102
+"963","AR3","Tidal Height","PrasinoB",0.0164402127359291,0.532480507584576
+"964","CC1","Tidal Height","PrasinoB",0.00334511922140725,0.78361621949262
+"965","CH1","Tidal Height","PrasinoB",0.129031074702965,0.0778171259814644
+"966","CH2","Tidal Height","PrasinoB",0.0546682954447425,0.282927944805319
+"967","CH3","Tidal Height","PrasinoB",0.119841287219279,0.0900443861676938
+"968","CS1","Tidal Height","PrasinoB",0.124132691901599,0.0775201595760438
+"969","FB1","Tidal Height","PrasinoB",0.167822207639228,0.0376769796521564
+"970","FC1","Tidal Height","PrasinoB",0.0123566630920807,0.596811110040491
+"971","HC1","Tidal Height","PrasinoB",6.8964234592904e-08,0.999051159201048
+"972","HC2","Tidal Height","PrasinoB",0.0602549831822295,0.22678086534543
+"973","JIC1","Tidal Height","PrasinoB",0.0477620919516538,0.304908610769632
+"974","JIC2","Tidal Height","PrasinoB",0.00344394484514788,0.775824039518231
+"975","SC1","Tidal Height","PrasinoB",0.00138197653266589,0.856920869271927
+"976","SC2","Tidal Height","PrasinoB",0.0533755844058971,0.256147647626994
+"977","SC3","Tidal Height","PrasinoB",0.00514137528239731,0.727777089327395
+"978","SR1","Tidal Height","PrasinoB",0.281111892871848,0.0111415202912591
+"979","WC1","Tidal Height","PrasinoB",0.0006065366493889,0.904942489044339
+"980","WR1","Tidal Height","PrasinoB",0.0688682474867706,0.205043143567967
+"981","AR1","Phosphate","PrasinoB",0.0974605272070953,0.257296716855839
+"982","AR2","Phosphate","PrasinoB",0.117766857504621,0.17748429054632
+"983","AR3","Phosphate","PrasinoB",0.020341802672875,0.585018300295055
+"984","CC1","Phosphate","PrasinoB",0.0649138148390482,0.323695869757539
+"985","CH1","Phosphate","PrasinoB",0.261147281430214,0.0430749352791544
+"986","CH2","Phosphate","PrasinoB",0.0473355444011424,0.45495141505585
+"987","CH3","Phosphate","PrasinoB",0.00221672305509413,0.862536369476979
+"988","CS1","Phosphate","PrasinoB",0.0131596157047028,0.661089976199195
+"989","FB1","Phosphate","PrasinoB",0.0122324266066887,0.67259981155804
+"990","FC1","Phosphate","PrasinoB",0.0951975536769065,0.244953032773574
+"991","HC1","Phosphate","PrasinoB",0.0255025166892313,0.585522813856609
+"992","HC2","Phosphate","PrasinoB",0.0369993177502661,0.45952555631385
+"993","JIC1","Phosphate","PrasinoB",0.0970067786858862,0.258466512917221
+"994","JIC2","Phosphate","PrasinoB",0.297835956259539,0.0234446386613703
+"995","SC1","Phosphate","PrasinoB",0.00122994852052345,0.893698422115068
+"996","SC2","Phosphate","PrasinoB",0.0257983103751252,0.538011054408831
+"997","SC3","Phosphate","PrasinoB",0.181647521516136,0.0880267706508603
+"998","SR1","Phosphate","PrasinoB",0.0469740248006289,0.403405974310791
+"999","WC1","Phosphate","PrasinoB",0.0688340857972864,0.309002903927068
+"1000","WR1","Phosphate","PrasinoB",0.00157512243193555,0.883976629366923
+"1001","AR1","Nitrate","PrasinoB",0.000792074096445673,0.920691348238197
+"1002","AR2","Nitrate","PrasinoB",0.0547282527137923,0.366141899596291
+"1003","AR3","Nitrate","PrasinoB",0.0281898481623576,0.519490561052736
+"1004","CC1","Nitrate","PrasinoB",0.000157790512538484,0.96183680174789
+"1005","CH1","Nitrate","PrasinoB",0.0203936341703658,0.597772890842588
+"1006","CH2","Nitrate","PrasinoB",0.00953714556883877,0.7397902684849
+"1007","CH3","Nitrate","PrasinoB",0.019237613452217,0.608453307842938
+"1008","CS1","Nitrate","PrasinoB",0.000122169053231965,0.966417081338036
+"1009","FB1","Nitrate","PrasinoB",0.0188340271153778,0.599416810664512
+"1010","FC1","Nitrate","PrasinoB",0.0538506612893648,0.387132741461068
+"1011","HC1","Nitrate","PrasinoB",0.077569801044318,0.334942014906333
+"1012","HC2","Nitrate","PrasinoB",0.0248642995507289,0.545559190675865
+"1013","JIC1","Nitrate","PrasinoB",0.480423872488747,0.00416947071158227
+"1014","JIC2","Nitrate","PrasinoB",0.00114077912620742,0.897604512074267
+"1015","SC1","Nitrate","PrasinoB",0.00887519016980843,0.719112459659248
+"1016","SC2","Nitrate","PrasinoB",0.0433027123817794,0.422860483416825
+"1017","SC3","Nitrate","PrasinoB",0.00105710462442653,0.901413451937658
+"1018","SR1","Nitrate","PrasinoB",0.0305039605604125,0.502572421299128
+"1019","WC1","Nitrate","PrasinoB",0.025293836650041,0.542064780899832
+"1020","WR1","Nitrate","PrasinoB",0.00975610494200518,0.715906636389753
+"1021","AR1","Temperature","Chloro",0.045913296963293,0.326207967546048
+"1022","AR2","Temperature","Chloro",0.0128767412839586,0.589141400123911
+"1023","AR3","Temperature","Chloro",0.000484613782665734,0.91499397674347
+"1024","CC1","Temperature","Chloro",0.00781816349201168,0.688281070731336
+"1025","CH1","Temperature","Chloro",0.0592069696072785,0.26323091057889
+"1026","CH2","Temperature","Chloro",0.105365289755985,0.140510979644956
+"1027","CH3","Temperature","Chloro",2.90396230860435e-06,0.993994898704192
+"1028","CS1","Temperature","Chloro",0.0895565221299514,0.137500016852584
+"1029","FB1","Temperature","Chloro",0.01261042490625,0.58494793258461
+"1030","FC1","Temperature","Chloro",0.00303403967938493,0.793700078524639
+"1031","HC1","Temperature","Chloro",0.0330244687558146,0.430474815563731
+"1032","HC2","Temperature","Chloro",0.0682804744127804,0.217442073220265
+"1033","JIC1","Temperature","Chloro",0.00116971637126373,0.876883880743239
+"1034","JIC2","Temperature","Chloro",0.236759300753213,0.0117133832968111
+"1035","SC1","Temperature","Chloro",0.0429063816403736,0.331456969590231
+"1036","SC2","Temperature","Chloro",0.1254060151402,0.0759104999348436
+"1037","SC3","Temperature","Chloro",0.209841711561882,0.0186043784416986
+"1038","SR1","Temperature","Chloro",0.00353136588685525,0.792788588929432
+"1039","WC1","Temperature","Chloro",0.066593058544289,0.203085780666451
+"1040","WR1","Temperature","Chloro",0.0494777175860895,0.307667677360814
+"1041","AR1","CDOM","Chloro",0.0548052503731025,0.401026150736852
+"1042","AR2","CDOM","Chloro",0.0416302309059294,0.432162841810595
+"1043","AR3","CDOM","Chloro",0.000280385047955616,0.949141164048814
+"1044","CC1","CDOM","Chloro",0.00168582130583284,0.87567062252617
+"1045","CH1","CDOM","Chloro",0.00730819077455547,0.752921034031848
+"1046","CH2","CDOM","Chloro",0.329474309408096,0.0318340459971021
+"1047","CH3","CDOM","Chloro",0.0737591092702324,0.308909176219708
+"1048","CS1","CDOM","Chloro",0.0636051385921332,0.328790433533134
+"1049","FB1","CDOM","Chloro",0.0786205247870591,0.292852971346465
+"1050","FC1","CDOM","Chloro",0.103825781078823,0.22355761945989
+"1051","HC1","CDOM","Chloro",0.000221119572620091,0.959761032944649
+"1052","HC2","CDOM","Chloro",0.012364421645947,0.670930932899735
+"1053","JIC1","CDOM","Chloro",0.0939803642657091,0.266423941555953
+"1054","JIC2","CDOM","Chloro",0.0552089966674003,0.363984247647626
+"1055","SC1","CDOM","Chloro",0.0123307279980378,0.671355950558209
+"1056","SC2","CDOM","Chloro",0.175240467605867,0.0944516002120921
+"1057","SC3","CDOM","Chloro",0.0782927075664566,0.276720300778098
+"1058","SR1","CDOM","Chloro",0.0410118489434662,0.435676618829223
+"1059","WC1","CDOM","Chloro",0.0281905045917614,0.519485627721582
+"1060","WR1","CDOM","Chloro",0.00773071178624367,0.74609201694786
+"1061","AR1","Salinity","Chloro",0.0199633909017174,0.576002371151864
+"1062","AR2","Salinity","Chloro",0.00096617120263643,0.896496158121552
+"1063","AR3","Salinity","Chloro",0.00435806633915365,0.782146679652839
+"1064","CC1","Salinity","Chloro",0.0130394676268561,0.631677926044336
+"1065","CH1","Salinity","Chloro",0.00736711183996972,0.726804998647989
+"1066","CH2","Salinity","Chloro",0.00280814275571356,0.839924745153076
+"1067","CH3","Salinity","Chloro",0.0338476488780752,0.450868965187936
+"1068","CS1","Salinity","Chloro",0.0457840007633424,0.365014487243754
+"1069","FB1","Salinity","Chloro",0.00778611983691756,0.711434253060904
+"1070","FC1","Salinity","Chloro",0.169167108544281,0.0802062482396024
+"1071","HC1","Salinity","Chloro",0.177910346592677,0.0917206118676139
+"1072","HC2","Salinity","Chloro",0.114554397020507,0.144383526831846
+"1073","JIC1","Salinity","Chloro",0.0166495471008413,0.609854202254436
+"1074","JIC2","Salinity","Chloro",0.00707174404164732,0.724472227817182
+"1075","SC1","Salinity","Chloro",0.0138473622866576,0.621239132415042
+"1076","SC2","Salinity","Chloro",0.0948531387924336,0.186488889285239
+"1077","SC3","Salinity","Chloro",0.0131130196860697,0.630711563261221
+"1078","SR1","Salinity","Chloro",0.0715214855532179,0.299395788173267
+"1079","WC1","Salinity","Chloro",0.0355682111374711,0.425856926066658
+"1080","WR1","Salinity","Chloro",0.0346931931977916,0.44516920559123
+"1081","AR1","Tidal Height","Chloro",0.00149341101098843,0.857718311564311
+"1082","AR2","Tidal Height","Chloro",0.0431716284121329,0.308426981039432
+"1083","AR3","Tidal Height","Chloro",0.0260998346151496,0.430430371371085
+"1084","CC1","Tidal Height","Chloro",0.0462587944516442,0.301845747315406
+"1085","CH1","Tidal Height","Chloro",0.0166024938340386,0.539322742248627
+"1086","CH2","Tidal Height","Chloro",0.00133510579567719,0.868536384940155
+"1087","CH3","Tidal Height","Chloro",0.0271929646497742,0.430861844740743
+"1088","CS1","Tidal Height","Chloro",0.0998822957956412,0.115749002379728
+"1089","FB1","Tidal Height","Chloro",0.0889836864782284,0.13882575509183
+"1090","FC1","Tidal Height","Chloro",0.128185031800755,0.078869230468031
+"1091","HC1","Tidal Height","Chloro",0.0115184356573401,0.625963445091458
+"1092","HC2","Tidal Height","Chloro",0.0635088187704988,0.21424837658656
+"1093","JIC1","Tidal Height","Chloro",0.000162480888489616,0.95286061638106
+"1094","JIC2","Tidal Height","Chloro",0.0189706003328307,0.502235701889873
+"1095","SC1","Tidal Height","Chloro",0.00216039879348928,0.821614941200918
+"1096","SC2","Tidal Height","Chloro",0.22142066095562,0.0152650396395146
+"1097","SC3","Tidal Height","Chloro",0.0211757990035089,0.47813743509833
+"1098","SR1","Tidal Height","Chloro",0.126469449344658,0.104317519169419
+"1099","WC1","Tidal Height","Chloro",0.0604017734151549,0.226197867627703
+"1100","WR1","Tidal Height","Chloro",0.001935823147227,0.834582494631089
+"1101","AR1","Phosphate","Chloro",0.030993077778637,0.53025704026179
+"1102","AR2","Phosphate","Chloro",1.55327140565267e-05,0.988022619651264
+"1103","AR3","Phosphate","Chloro",0.0201688481037769,0.586634966377894
+"1104","CC1","Phosphate","Chloro",0.0650845982273604,0.323038223393267
+"1105","CH1","Phosphate","Chloro",0.0385276219073401,0.466256310445421
+"1106","CH2","Phosphate","Chloro",0.0118476459654962,0.711084258958306
+"1107","CH3","Phosphate","Chloro",0.0557645540856118,0.378584627090142
+"1108","CS1","Phosphate","Chloro",0.00130243174165758,0.890628133657741
+"1109","FB1","Phosphate","Chloro",0.0162079310976118,0.626314371601108
+"1110","FC1","Phosphate","Chloro",0.00444158059595237,0.80627983652272
+"1111","HC1","Phosphate","Chloro",0.0186374748744227,0.641664574346532
+"1112","HC2","Phosphate","Chloro",0.0022261426820717,0.85729565722006
+"1113","JIC1","Phosphate","Chloro",0.0258052942397667,0.567377610609621
+"1114","JIC2","Phosphate","Chloro",0.0071701284266742,0.746605688586986
+"1115","SC1","Phosphate","Chloro",0.00261916475047042,0.845341677745473
+"1116","SC2","Phosphate","Chloro",0.182084301573687,0.0876046179960343
+"1117","SC3","Phosphate","Chloro",0.0236068215936247,0.556025282329844
+"1118","SR1","Phosphate","Chloro",0.0053038170821769,0.781187894416648
+"1119","WC1","Phosphate","Chloro",0.0139938663310031,0.651133838927483
+"1120","WR1","Phosphate","Chloro",0.00938964894572626,0.721090846894969
+"1121","AR1","Nitrate","Chloro",0.0168590776256083,0.64464647662418
+"1122","AR2","Nitrate","Chloro",0.254758262132661,0.0387956604842532
+"1123","AR3","Nitrate","Chloro",0.0282857555884498,0.51877061527725
+"1124","CC1","Nitrate","Chloro",0.0359109139418639,0.466330400167851
+"1125","CH1","Nitrate","Chloro",0.0453656239607082,0.428354488100595
+"1126","CH2","Nitrate","Chloro",0.352731776627351,0.0251289976135272
+"1127","CH3","Nitrate","Chloro",0.126330590585568,0.176692843838841
+"1128","CS1","Nitrate","Chloro",0.108821451337842,0.195978276820427
+"1129","FB1","Nitrate","Chloro",0.00309321389042041,0.832099402457004
+"1130","FC1","Nitrate","Chloro",0.115392617886459,0.198007537417578
+"1131","HC1","Nitrate","Chloro",0.0702035028242608,0.359944317354949
+"1132","HC2","Nitrate","Chloro",0.0229159385717617,0.561932509551453
+"1133","JIC1","Nitrate","Chloro",0.0206393225206002,0.609490855928882
+"1134","JIC2","Nitrate","Chloro",0.0591382170312433,0.346949068944191
+"1135","SC1","Nitrate","Chloro",0.00232482323492556,0.854198146666077
+"1136","SC2","Nitrate","Chloro",0.0807587667454683,0.268965411149898
+"1137","SC3","Nitrate","Chloro",0.0126249818303964,0.66766670244842
+"1138","SR1","Nitrate","Chloro",0.0056454547866403,0.774416633578161
+"1139","WC1","Nitrate","Chloro",0.0495578438410308,0.390446816278754
+"1140","WR1","Nitrate","Chloro",0.0118886147797978,0.687711199885673
+"1141","AR1","Temperature","RaphidoA",0.0017026649518854,0.851711209924925
+"1142","AR2","Temperature","RaphidoA",0.0550467403705835,0.258944087740334
+"1143","AR3","Temperature","RaphidoA",0.0932939572136716,0.129171054752606
+"1144","CC1","Temperature","RaphidoA",0.0352530487436727,0.390943423805775
+"1145","CH1","Temperature","RaphidoA",0.0687933077738828,0.226649860256709
+"1146","CH2","Temperature","RaphidoA",0.00050294782025065,0.921089442274478
+"1147","CH3","Temperature","RaphidoA",0.0272193245188295,0.46312038868099
+"1148","CS1","Temperature","RaphidoA",0.0206862269850718,0.483323895208053
+"1149","FB1","Temperature","RaphidoA",0.0110984002227838,0.608520502340521
+"1150","FC1","Temperature","RaphidoA",0.142136891832241,0.0632012633352691
+"1151","HC1","Temperature","RaphidoA",0.0530802084950347,0.315023111421519
+"1152","HC2","Temperature","RaphidoA",0.00802101726058105,0.677286307135822
+"1153","JIC1","Temperature","RaphidoA",0.030920137559391,0.422229473855216
+"1154","JIC2","Temperature","RaphidoA",0.12004084436793,0.0829293884940808
+"1155","SC1","Temperature","RaphidoA",0.0272456822522086,0.440837142566128
+"1156","SC2","Temperature","RaphidoA",8.92437665399416e-06,0.988444258389404
+"1157","SC3","Temperature","RaphidoA",0.0254366417034482,0.436426751172006
+"1158","SR1","Temperature","RaphidoA",0.0211816975496167,0.518118765991178
+"1159","WC1","Temperature","RaphidoA",0.170258972787321,0.0361817168494381
+"1160","WR1","Temperature","RaphidoA",0.0621587607294334,0.251285716010022
+"1161","AR1","CDOM","RaphidoA",0.322916638512025,0.0270958005673388
+"1162","AR2","CDOM","RaphidoA",1.60359659247046e-06,0.996151434906216
+"1163","AR3","CDOM","RaphidoA",0.227423140031713,0.052923681380636
+"1164","CC1","CDOM","RaphidoA",0.127032103863576,0.160251184151903
+"1165","CH1","CDOM","RaphidoA",7.91525247881774e-05,0.973913307826222
+"1166","CH2","CDOM","RaphidoA",0.0154037384689892,0.67249322983849
+"1167","CH3","CDOM","RaphidoA",0.0647256685941038,0.341668297141452
+"1168","CS1","CDOM","RaphidoA",0.235521009574949,0.0483023853155178
+"1169","FB1","CDOM","RaphidoA",0.197509276158591,0.0845855675093945
+"1170","FC1","CDOM","RaphidoA",0.0743711909479903,0.306830857526346
+"1171","HC1","CDOM","RaphidoA",0.000280595081618794,0.954675792843488
+"1172","HC2","CDOM","RaphidoA",0.0314246946998202,0.496091293493222
+"1173","JIC1","CDOM","RaphidoA",0.409675584548348,0.0101676829182364
+"1174","JIC2","CDOM","RaphidoA",0.0215804919161632,0.573688183270808
+"1175","SC1","CDOM","RaphidoA",0.106681882998952,0.200699004692018
+"1176","SC2","CDOM","RaphidoA",7.95157334330955e-07,0.997289942101138
+"1177","SC3","CDOM","RaphidoA",0.238461468754133,0.0467202958935935
+"1178","SR1","CDOM","RaphidoA",0.0413383108363782,0.433816482236105
+"1179","WC1","CDOM","RaphidoA",0.231937715854673,0.050298376064767
+"1180","WR1","CDOM","RaphidoA",0.0395291016978235,0.460402303141388
+"1181","AR1","Salinity","RaphidoA",0.0375632166392468,0.440947325868966
+"1182","AR2","Salinity","RaphidoA",0.0523992367677431,0.331664139488428
+"1183","AR3","Salinity","RaphidoA",0.00145621753137615,0.87309577644491
+"1184","CC1","Salinity","RaphidoA",0.22268318898368,0.0356700354931191
+"1185","CH1","Salinity","RaphidoA",0.0129168124591711,0.643169248158851
+"1186","CH2","Salinity","RaphidoA",0.12070425739633,0.171820638134708
+"1187","CH3","Salinity","RaphidoA",0.0563495918417253,0.327799788389836
+"1188","CS1","Salinity","RaphidoA",0.0153503279568785,0.60277278592869
+"1189","FB1","Salinity","RaphidoA",0.0182652298794523,0.569964267421288
+"1190","FC1","Salinity","RaphidoA",0.00621402146769346,0.748376904063891
+"1191","HC1","Salinity","RaphidoA",0.0063283763184155,0.761512554297207
+"1192","HC2","Salinity","RaphidoA",0.00775173540679396,0.712046042124904
+"1193","JIC1","Salinity","RaphidoA",0.11111944034368,0.176445985072318
+"1194","JIC2","Salinity","RaphidoA",0.122691248305631,0.130014540338214
+"1195","SC1","Salinity","RaphidoA",0.0879235920546091,0.204272666672172
+"1196","SC2","Salinity","RaphidoA",0.0286228164232824,0.475810698563876
+"1197","SC3","Salinity","RaphidoA",0.111666500717427,0.149870536275127
+"1198","SR1","Salinity","RaphidoA",0.0182104356982915,0.605583008585083
+"1199","WC1","Salinity","RaphidoA",0.0955373409472718,0.184826106787614
+"1200","WR1","Salinity","RaphidoA",0.117238896517768,0.151294516414705
+"1201","AR1","Tidal Height","RaphidoA",0.0564525120503913,0.263588288821101
+"1202","AR2","Tidal Height","RaphidoA",0.0900603260867188,0.136345078744414
+"1203","AR3","Tidal Height","RaphidoA",0.0327251445169285,0.376490890271593
+"1204","CC1","Tidal Height","RaphidoA",0.320474406128994,0.0031795647034956
+"1205","CH1","Tidal Height","RaphidoA",0.0543385171760301,0.262119372807694
+"1206","CH2","Tidal Height","RaphidoA",0.107735387459868,0.126244920662133
+"1207","CH3","Tidal Height","RaphidoA",0.0774891163010144,0.177852162958349
+"1208","CS1","Tidal Height","RaphidoA",0.205828263182541,0.019917180651869
+"1209","FB1","Tidal Height","RaphidoA",0.26591718721801,0.00701060129319097
+"1210","FC1","Tidal Height","RaphidoA",0.159142162687761,0.0482230087634165
+"1211","HC1","Tidal Height","RaphidoA",0.0206005186023245,0.513530770457633
+"1212","HC2","Tidal Height","RaphidoA",0.00164304721829945,0.844139266384083
+"1213","JIC1","Tidal Height","RaphidoA",0.160204691957781,0.0526145506181654
+"1214","JIC2","Tidal Height","RaphidoA",0.137198743747062,0.0625061717522749
+"1215","SC1","Tidal Height","RaphidoA",0.0551263356453347,0.248275709540932
+"1216","SC2","Tidal Height","RaphidoA",0.00811596773878158,0.661630113976613
+"1217","SC3","Tidal Height","RaphidoA",0.0230857520626415,0.458717474367565
+"1218","SR1","Tidal Height","RaphidoA",0.232399515678207,0.0230853000098033
+"1219","WC1","Tidal Height","RaphidoA",0.0886884620697188,0.139514269344766
+"1220","WR1","Tidal Height","RaphidoA",2.30480260839167e-05,0.98182950716406
+"1221","AR1","Phosphate","RaphidoA",0.178260440600207,0.116949679057804
+"1222","AR2","Phosphate","RaphidoA",0.013990462071624,0.651173743748329
+"1223","AR3","Phosphate","RaphidoA",0.0294991092723787,0.509804858170098
+"1224","CC1","Phosphate","RaphidoA",0.0332937057441099,0.483340456035549
+"1225","CH1","Phosphate","RaphidoA",0.0194789274717998,0.606191585169751
+"1226","CH2","Phosphate","RaphidoA",0.000653875510193525,0.930853909876486
+"1227","CH3","Phosphate","RaphidoA",0.0682713838973495,0.328324430321215
+"1228","CS1","Phosphate","RaphidoA",0.00628160784917164,0.762371527591159
+"1229","FB1","Phosphate","RaphidoA",0.0123489349057481,0.671126201677907
+"1230","FC1","Phosphate","RaphidoA",0.105523079974908,0.219595220619028
+"1231","HC1","Phosphate","RaphidoA",0.00051013866483478,0.938910269630949
+"1232","HC2","Phosphate","RaphidoA",0.0268345952082033,0.529848410146162
+"1233","JIC1","Phosphate","RaphidoA",0.0507895099724772,0.419330409860006
+"1234","JIC2","Phosphate","RaphidoA",0.407584308201353,0.00581332140663028
+"1235","SC1","Phosphate","RaphidoA",0.0401127189381728,0.440859877381125
+"1236","SC2","Phosphate","RaphidoA",0.000273156282845913,0.949800269258761
+"1237","SC3","Phosphate","RaphidoA",0.0615470854219176,0.337005015908224
+"1238","SR1","Phosphate","RaphidoA",0.0088770922122356,0.719083508734695
+"1239","WC1","Phosphate","RaphidoA",0.369874865070565,0.00959037129064377
+"1240","WR1","Phosphate","RaphidoA",0.0679544656590859,0.329490536527326
+"1241","AR1","Nitrate","RaphidoA",0.0359802577756684,0.498342358768374
+"1242","AR2","Nitrate","RaphidoA",0.0186116644024966,0.601600782617691
+"1243","AR3","Nitrate","RaphidoA",0.143867422178752,0.133215858466812
+"1244","CC1","Nitrate","RaphidoA",0.0192642643957591,0.595236501417086
+"1245","CH1","Nitrate","RaphidoA",0.0669355459869541,0.333274462924113
+"1246","CH2","Nitrate","RaphidoA",9.83007151380148e-05,0.973165070534277
+"1247","CH3","Nitrate","RaphidoA",0.0151338781958499,0.649905292355687
+"1248","CS1","Nitrate","RaphidoA",0.0822876776667576,0.264283558810014
+"1249","FB1","Nitrate","RaphidoA",0.333873754536299,0.0151293781013265
+"1250","FC1","Nitrate","RaphidoA",0.242668893872751,0.0525503676628524
+"1251","HC1","Nitrate","RaphidoA",0.00248899485669281,0.86550525342148
+"1252","HC2","Nitrate","RaphidoA",1.01235213613926e-05,0.99033038775652
+"1253","JIC1","Nitrate","RaphidoA",2.30909408331595e-06,0.995711681086882
+"1254","JIC2","Nitrate","RaphidoA",0.000123731500034609,0.966203128344836
+"1255","SC1","Nitrate","RaphidoA",0.0408257431566973,0.436742187930715
+"1256","SC2","Nitrate","RaphidoA",0.0304460179708548,0.502984882006972
+"1257","SC3","Nitrate","RaphidoA",0.0235567045563765,0.556449954059861
+"1258","SR1","Nitrate","RaphidoA",0.0103694775679773,0.697356448585282
+"1259","WC1","Nitrate","RaphidoA",0.0215855049864736,0.573643186988429
+"1260","WR1","Nitrate","RaphidoA",0.0408837556306131,0.452657780283835
+"1261","AR1","Temperature","HaptoA.ChrysoA.DinoC",0.0497874395582874,0.306119178992228
+"1262","AR2","Temperature","HaptoA.ChrysoA.DinoC",0.0722630632954218,0.193823997157855
+"1263","AR3","Temperature","HaptoA.ChrysoA.DinoC",0.139850876667402,0.0598329764583158
+"1264","CC1","Temperature","HaptoA.ChrysoA.DinoC",0.0179376451310811,0.542359815104479
+"1265","CH1","Temperature","HaptoA.ChrysoA.DinoC",0.000911592520407719,0.891224951760398
+"1266","CH2","Temperature","HaptoA.ChrysoA.DinoC",0.0409502507812388,0.366446030759357
+"1267","CH3","Temperature","HaptoA.ChrysoA.DinoC",0.00106535431199009,0.885346064577022
+"1268","CS1","Temperature","HaptoA.ChrysoA.DinoC",0.000187728520262771,0.947034955640606
+"1269","FB1","Temperature","HaptoA.ChrysoA.DinoC",0.0015882448675813,0.846729927417824
+"1270","FC1","Temperature","HaptoA.ChrysoA.DinoC",0.0292402647154548,0.413778539521314
+"1271","HC1","Temperature","HaptoA.ChrysoA.DinoC",0.10813667314516,0.145528939748301
+"1272","HC2","Temperature","HaptoA.ChrysoA.DinoC",0.120935411850041,0.0958829110317562
+"1273","JIC1","Temperature","HaptoA.ChrysoA.DinoC",0.0770631637630086,0.199675978465101
+"1274","JIC2","Temperature","HaptoA.ChrysoA.DinoC",0.10744579284789,0.102105771371736
+"1275","SC1","Temperature","HaptoA.ChrysoA.DinoC",0.00567142161098637,0.726534949887048
+"1276","SC2","Temperature","HaptoA.ChrysoA.DinoC",0.0126578296852012,0.584238678150788
+"1277","SC3","Temperature","HaptoA.ChrysoA.DinoC",0.000652189457215086,0.90144646420527
+"1278","SR1","Temperature","HaptoA.ChrysoA.DinoC",0.0183355652207074,0.547954303899884
+"1279","WC1","Temperature","HaptoA.ChrysoA.DinoC",2.15975754452963e-06,0.994315108917015
+"1280","WR1","Temperature","HaptoA.ChrysoA.DinoC",0.198500830152866,0.0331223144438206
+"1281","AR1","CDOM","HaptoA.ChrysoA.DinoC",0.414684678149349,0.00957524616386329
+"1282","AR2","CDOM","HaptoA.ChrysoA.DinoC",0.0270761080805324,0.527976844972279
+"1283","AR3","CDOM","HaptoA.ChrysoA.DinoC",0.105540753673641,0.203266581157109
+"1284","CC1","CDOM","HaptoA.ChrysoA.DinoC",0.00325571715991556,0.827805910457018
+"1285","CH1","CDOM","HaptoA.ChrysoA.DinoC",0.00889450785223437,0.728277771549027
+"1286","CH2","CDOM","HaptoA.ChrysoA.DinoC",0.000389601128804601,0.946602440278095
+"1287","CH3","CDOM","HaptoA.ChrysoA.DinoC",0.0222233285802266,0.581617327372161
+"1288","CS1","CDOM","HaptoA.ChrysoA.DinoC",0.0455166674354522,0.410976287384958
+"1289","FB1","CDOM","HaptoA.ChrysoA.DinoC",0.0280114743939423,0.535550966020751
+"1290","FC1","CDOM","HaptoA.ChrysoA.DinoC",0.257333487515071,0.0448897011743873
+"1291","HC1","CDOM","HaptoA.ChrysoA.DinoC",0.000733336402917413,0.926782612684589
+"1292","HC2","CDOM","HaptoA.ChrysoA.DinoC",0.05726927934562,0.354921419643931
+"1293","JIC1","CDOM","HaptoA.ChrysoA.DinoC",0.113372829276922,0.219760546418295
+"1294","JIC2","CDOM","HaptoA.ChrysoA.DinoC",0.0367168874326505,0.461276836046141
+"1295","SC1","CDOM","HaptoA.ChrysoA.DinoC",0.00109890492613752,0.899492273490541
+"1296","SC2","CDOM","HaptoA.ChrysoA.DinoC",0.0157345775724366,0.63144066246231
+"1297","SC3","CDOM","HaptoA.ChrysoA.DinoC",0.262668839442536,0.0354184703661585
+"1298","SR1","CDOM","HaptoA.ChrysoA.DinoC",0.0206341265530469,0.582305582953462
+"1299","WC1","CDOM","HaptoA.ChrysoA.DinoC",0.225051161636826,0.0543542677660257
+"1300","WR1","CDOM","HaptoA.ChrysoA.DinoC",0.022637297074629,0.578080067793144
+"1301","AR1","Salinity","HaptoA.ChrysoA.DinoC",0.255017407094504,0.0325540365588373
+"1302","AR2","Salinity","HaptoA.ChrysoA.DinoC",0.27198250137854,0.0183599264010615
+"1303","AR3","Salinity","HaptoA.ChrysoA.DinoC",0.165510902158144,0.075047281004776
+"1304","CC1","Salinity","HaptoA.ChrysoA.DinoC",0.0737968283418339,0.246616428661935
+"1305","CH1","Salinity","HaptoA.ChrysoA.DinoC",0.293346502120426,0.0166142249758893
+"1306","CH2","Salinity","HaptoA.ChrysoA.DinoC",0.00287982504593029,0.837919626063582
+"1307","CH3","Salinity","HaptoA.ChrysoA.DinoC",0.284075847211767,0.0187879051738567
+"1308","CS1","Salinity","HaptoA.ChrysoA.DinoC",0.00883763979584198,0.693415512584866
+"1309","FB1","Salinity","HaptoA.ChrysoA.DinoC",0.0528146029483173,0.329702268495742
+"1310","FC1","Salinity","HaptoA.ChrysoA.DinoC",0.0682358742511572,0.280041363087547
+"1311","HC1","Salinity","HaptoA.ChrysoA.DinoC",0.102039296179909,0.211368692210525
+"1312","HC2","Salinity","HaptoA.ChrysoA.DinoC",0.0563269321155319,0.313678310946161
+"1313","JIC1","Salinity","HaptoA.ChrysoA.DinoC",0.253786075308202,0.033045330324934
+"1314","JIC2","Salinity","HaptoA.ChrysoA.DinoC",0.13026801586271,0.117953752370112
+"1315","SC1","Salinity","HaptoA.ChrysoA.DinoC",0.0727666042621681,0.250072156024737
+"1316","SC2","Salinity","HaptoA.ChrysoA.DinoC",0.00892635010970882,0.691952524414769
+"1317","SC3","Salinity","HaptoA.ChrysoA.DinoC",0.260545636255143,0.0214706015564149
+"1318","SR1","Salinity","HaptoA.ChrysoA.DinoC",0.410091563736842,0.00561777329866789
+"1319","WC1","Salinity","HaptoA.ChrysoA.DinoC",0.195639270928167,0.0508440730291497
+"1320","WR1","Salinity","HaptoA.ChrysoA.DinoC",0.00629987935838093,0.746698452267331
+"1321","AR1","Tidal Height","HaptoA.ChrysoA.DinoC",0.12696427006424,0.0874445215827996
+"1322","AR2","Tidal Height","HaptoA.ChrysoA.DinoC",0.20788267536713,0.019234460603761
+"1323","AR3","Tidal Height","HaptoA.ChrysoA.DinoC",0.00747415951324081,0.674533605974556
+"1324","CC1","Tidal Height","HaptoA.ChrysoA.DinoC",0.0898354131941802,0.145499336653925
+"1325","CH1","Tidal Height","HaptoA.ChrysoA.DinoC",0.115808085740015,0.0960078208969038
+"1326","CH2","Tidal Height","HaptoA.ChrysoA.DinoC",0.043722530167616,0.338302799149927
+"1327","CH3","Tidal Height","HaptoA.ChrysoA.DinoC",0.10756783852037,0.109475397706954
+"1328","CS1","Tidal Height","HaptoA.ChrysoA.DinoC",0.116526127352391,0.0878794126001814
+"1329","FB1","Tidal Height","HaptoA.ChrysoA.DinoC",0.167739216989669,0.0377289513395432
+"1330","FC1","Tidal Height","HaptoA.ChrysoA.DinoC",0.019844763162005,0.501801172007107
+"1331","HC1","Tidal Height","HaptoA.ChrysoA.DinoC",0.244132274131709,0.0165574864459463
+"1332","HC2","Tidal Height","HaptoA.ChrysoA.DinoC",0.00703816388107485,0.683672330996482
+"1333","JIC1","Tidal Height","HaptoA.ChrysoA.DinoC",0.300181289747431,0.00557914573807682
+"1334","JIC2","Tidal Height","HaptoA.ChrysoA.DinoC",0.0212428046002638,0.477434477157555
+"1335","SC1","Tidal Height","HaptoA.ChrysoA.DinoC",0.00132631719127135,0.859803229113236
+"1336","SC2","Tidal Height","HaptoA.ChrysoA.DinoC",0.0388384513402824,0.334557494396235
+"1337","SC3","Tidal Height","HaptoA.ChrysoA.DinoC",0.0415459175691266,0.317918475264539
+"1338","SR1","Tidal Height","HaptoA.ChrysoA.DinoC",0.477775284123319,0.000367626806507975
+"1339","WC1","Tidal Height","HaptoA.ChrysoA.DinoC",0.0188352563226852,0.503779179353449
+"1340","WR1","Tidal Height","HaptoA.ChrysoA.DinoC",0.0424108832960221,0.323339673796616
+"1341","AR1","Phosphate","HaptoA.ChrysoA.DinoC",0.389221254262891,0.0129368433095279
+"1342","AR2","Phosphate","HaptoA.ChrysoA.DinoC",0.0183199579884428,0.604490623108334
+"1343","AR3","Phosphate","HaptoA.ChrysoA.DinoC",0.0130661658732738,0.66222810511551
+"1344","CC1","Phosphate","HaptoA.ChrysoA.DinoC",0.000130651329003737,0.965271440558536
+"1345","CH1","Phosphate","HaptoA.ChrysoA.DinoC",0.0634930699105126,0.346465031110807
+"1346","CH2","Phosphate","HaptoA.ChrysoA.DinoC",0.0159556351947248,0.66698066954322
+"1347","CH3","Phosphate","HaptoA.ChrysoA.DinoC",0.0234782819905871,0.571019496130799
+"1348","CS1","Phosphate","HaptoA.ChrysoA.DinoC",0.0191765459511031,0.596084015684326
+"1349","FB1","Phosphate","HaptoA.ChrysoA.DinoC",0.00210688944631733,0.86113477462483
+"1350","FC1","Phosphate","HaptoA.ChrysoA.DinoC",0.0208848297822737,0.593349060852488
+"1351","HC1","Phosphate","HaptoA.ChrysoA.DinoC",0.0546877328425041,0.421008037970688
+"1352","HC2","Phosphate","HaptoA.ChrysoA.DinoC",0.0039725361732461,0.810085948231281
+"1353","JIC1","Phosphate","HaptoA.ChrysoA.DinoC",0.033513566340283,0.513717206905637
+"1354","JIC2","Phosphate","HaptoA.ChrysoA.DinoC",0.124520726183439,0.164742763539016
+"1355","SC1","Phosphate","HaptoA.ChrysoA.DinoC",0.139381634340902,0.139929304100704
+"1356","SC2","Phosphate","HaptoA.ChrysoA.DinoC",0.00582064791826775,0.771029519733339
+"1357","SC3","Phosphate","HaptoA.ChrysoA.DinoC",0.0906910102401983,0.240150092390979
+"1358","SR1","Phosphate","HaptoA.ChrysoA.DinoC",0.108106786262274,0.197541735113256
+"1359","WC1","Phosphate","HaptoA.ChrysoA.DinoC",0.210746970720158,0.0637879819187068
+"1360","WR1","Phosphate","HaptoA.ChrysoA.DinoC",0.0242336250682547,0.564815503189696
+"1361","AR1","Nitrate","HaptoA.ChrysoA.DinoC",0.0346807809967416,0.506346922868842
+"1362","AR2","Nitrate","HaptoA.ChrysoA.DinoC",0.214792302369955,0.0609733765540917
+"1363","AR3","Nitrate","HaptoA.ChrysoA.DinoC",0.0187356583805272,0.600380959643837
+"1364","CC1","Nitrate","HaptoA.ChrysoA.DinoC",0.0228323475280283,0.562655094032094
+"1365","CH1","Nitrate","HaptoA.ChrysoA.DinoC",0.179033021988289,0.102473819392692
+"1366","CH2","Nitrate","HaptoA.ChrysoA.DinoC",0.00244007286701993,0.866822742896796
+"1367","CH3","Nitrate","HaptoA.ChrysoA.DinoC",0.110157443197262,0.20915896612455
+"1368","CS1","Nitrate","HaptoA.ChrysoA.DinoC",0.0115146946461474,0.681862372527303
+"1369","FB1","Nitrate","HaptoA.ChrysoA.DinoC",0.0052119281153926,0.783048711938455
+"1370","FC1","Nitrate","HaptoA.ChrysoA.DinoC",0.0110285940754913,0.698706866913929
+"1371","HC1","Nitrate","HaptoA.ChrysoA.DinoC",0.00447633568362604,0.820228912712219
+"1372","HC2","Nitrate","HaptoA.ChrysoA.DinoC",0.093487595337773,0.232676037945032
+"1373","JIC1","Nitrate","HaptoA.ChrysoA.DinoC",0.0613215549942196,0.373548643451349
+"1374","JIC2","Nitrate","HaptoA.ChrysoA.DinoC",0.077774606928796,0.278382354703517
+"1375","SC1","Nitrate","HaptoA.ChrysoA.DinoC",0.137286093055824,0.143182196474281
+"1376","SC2","Nitrate","HaptoA.ChrysoA.DinoC",0.0503424829044337,0.386623140215182
+"1377","SC3","Nitrate","HaptoA.ChrysoA.DinoC",0.0501400570403985,0.38760476439552
+"1378","SR1","Nitrate","HaptoA.ChrysoA.DinoC",0.171967076324017,0.0979085176799428
+"1379","WC1","Nitrate","HaptoA.ChrysoA.DinoC",0.0292296431706577,0.511773576124586
+"1380","WR1","Nitrate","HaptoA.ChrysoA.DinoC",0.0323776824192622,0.504872115504575
+"1381","AR1","Temperature","Eugleno",0.051452927360689,0.297954480537553
+"1382","AR2","Temperature","Eugleno",0.0942076989298888,0.135597226523088
+"1383","AR3","Temperature","Eugleno",0.0461820657095885,0.291759942226499
+"1384","CC1","Temperature","Eugleno",0.0716355151354178,0.21694502902678
+"1385","CH1","Temperature","Eugleno",0.0918370888633756,0.159836901981965
+"1386","CH2","Temperature","Eugleno",0.165933496359937,0.0598819132754412
+"1387","CH3","Temperature","Eugleno",0.00017374720108014,0.953574006617935
+"1388","CS1","Temperature","Eugleno",0.246114575678038,0.00994948085347807
+"1389","FB1","Temperature","Eugleno",0.143391090679674,0.0564406965244286
+"1390","FC1","Temperature","Eugleno",3.07705057608179e-05,0.979005505707023
+"1391","HC1","Temperature","Eugleno",0.074420279072097,0.231524973974493
+"1392","HC2","Temperature","Eugleno",0.0394144141311938,0.352381381525561
+"1393","JIC1","Temperature","Eugleno",0.124559026299194,0.0985649720828316
+"1394","JIC2","Temperature","Eugleno",0.0678513379657038,0.198719743196089
+"1395","SC1","Temperature","Eugleno",0.311138967579146,0.0046229795418634
+"1396","SC2","Temperature","Eugleno",0.0624480126599391,0.218245881272392
+"1397","SC3","Temperature","Eugleno",0.0302679512763735,0.395329493683286
+"1398","SR1","Temperature","Eugleno",0.00341459459696407,0.796172362318323
+"1399","WC1","Temperature","Eugleno",0.179391485107417,0.031074520649266
+"1400","WR1","Temperature","Eugleno",0.120594324516616,0.104472617478344
+"1401","AR1","CDOM","Eugleno",0.433898074051733,0.00757491483557956
+"1402","AR2","CDOM","Eugleno",0.110579454719149,0.192188330982988
+"1403","AR3","CDOM","Eugleno",0.010158553740499,0.700314950787291
+"1404","CC1","CDOM","Eugleno",0.00797800131894398,0.733174816412429
+"1405","CH1","CDOM","Eugleno",0.127815332569972,0.173990609249278
+"1406","CH2","CDOM","Eugleno",9.16149512028661e-05,0.974093416934968
+"1407","CH3","CDOM","Eugleno",0.273971259099618,0.037458487414976
+"1408","CS1","CDOM","Eugleno",0.120510484710947,0.172188357807308
+"1409","FB1","CDOM","Eugleno",0.130395235486305,0.169396860070938
+"1410","FC1","CDOM","Eugleno",0.0625111046931768,0.350347262555426
+"1411","HC1","CDOM","Eugleno",0.00133945973016938,0.901147184503713
+"1412","HC2","CDOM","Eugleno",0.183896163149379,0.0858743313358156
+"1413","JIC1","CDOM","Eugleno",0.0153403281434989,0.660098407703893
+"1414","JIC2","CDOM","Eugleno",0.0505798158311819,0.385476478021622
+"1415","SC1","CDOM","Eugleno",0.334728219790873,0.0149699164196204
+"1416","SC2","CDOM","Eugleno",0.156252472986763,0.116315985053866
+"1417","SC3","CDOM","Eugleno",0.0312295861345915,0.497453336443262
+"1418","SR1","CDOM","Eugleno",0.00653394909641634,0.757777085884263
+"1419","WC1","CDOM","Eugleno",0.000145444074084093,0.963359284033998
+"1420","WR1","CDOM","Eugleno",0.0635442823790781,0.346264054688518
+"1421","AR1","Salinity","Eugleno",0.103344033362747,0.193316576886011
+"1422","AR2","Salinity","Eugleno",0.258442705865429,0.0220936457924617
+"1423","AR3","Salinity","Eugleno",0.0389580640403487,0.404215252041787
+"1424","CC1","Salinity","Eugleno",0.0158851631638798,0.596473990878029
+"1425","CH1","Salinity","Eugleno",0.0562841834346303,0.328089030931211
+"1426","CH2","Salinity","Eugleno",0.136587844426804,0.144283102194952
+"1427","CH3","Salinity","Eugleno",0.0281966555769001,0.491985871311571
+"1428","CS1","Salinity","Eugleno",0.0691724218283318,0.262571862832513
+"1429","FB1","Salinity","Eugleno",0.088626516641756,0.202387193607085
+"1430","FC1","Salinity","Eugleno",0.0806795860357638,0.238587651509844
+"1431","HC1","Salinity","Eugleno",0.00854041716846967,0.724262985019332
+"1432","HC2","Salinity","Eugleno",0.0423563790415924,0.384024463162215
+"1433","JIC1","Salinity","Eugleno",0.258345937514676,0.0312598631600199
+"1434","JIC2","Salinity","Eugleno",0.000574643366064359,0.920093607460756
+"1435","SC1","Salinity","Eugleno",0.00257148161425847,0.831861548123169
+"1436","SC2","Salinity","Eugleno",0.0461208280840108,0.363214239771954
+"1437","SC3","Salinity","Eugleno",0.115902932559386,0.141893208760745
+"1438","SR1","Salinity","Eugleno",0.120161100599347,0.172853460747903
+"1439","WC1","Salinity","Eugleno",0.0704537842544541,0.258034610301591
+"1440","WR1","Salinity","Eugleno",0.0286018553328196,0.488845870756006
+"1441","AR1","Tidal Height","Eugleno",0.0537109260349269,0.275854263318828
+"1442","AR2","Tidal Height","Eugleno",0.122122022221484,0.0801321995059542
+"1443","AR3","Tidal Height","Eugleno",0.0014762849159584,0.852170409829643
+"1444","CC1","Tidal Height","Eugleno",0.155833953425152,0.0508328988150688
+"1445","CH1","Tidal Height","Eugleno",0.00630477686995924,0.705962457702951
+"1446","CH2","Tidal Height","Eugleno",0.0327724885187896,0.408438768370684
+"1447","CH3","Tidal Height","Eugleno",0.117240693892365,0.0938449659765392
+"1448","CS1","Tidal Height","Eugleno",0.00307656926821228,0.787834455635636
+"1449","FB1","Tidal Height","Eugleno",0.00770499803503116,0.669820457843594
+"1450","FC1","Tidal Height","Eugleno",0.117932754345048,0.0928179467575796
+"1451","HC1","Tidal Height","Eugleno",0.0372859769960755,0.377364969304698
+"1452","HC2","Tidal Height","Eugleno",0.0224463390124711,0.46508000720097
+"1453","JIC1","Tidal Height","Eugleno",0.0038468093600074,0.773419992862496
+"1454","JIC2","Tidal Height","Eugleno",0.0414241497587609,0.318644026307504
+"1455","SC1","Tidal Height","Eugleno",0.000637920062095162,0.902525471779825
+"1456","SC2","Tidal Height","Eugleno",0.00478069623112718,0.737155863376246
+"1457","SC3","Tidal Height","Eugleno",0.0546000057853395,0.250612152234453
+"1458","SR1","Tidal Height","Eugleno",0.363294702132433,0.00298831439788404
+"1459","WC1","Tidal Height","Eugleno",0.0169120883364941,0.526606303400182
+"1460","WR1","Tidal Height","Eugleno",0.0378611654784464,0.351316037248191
+"1461","AR1","Phosphate","Eugleno",0.261483264596166,0.051383654800119
+"1462","AR2","Phosphate","Eugleno",0.290128896954134,0.0256930289318314
+"1463","AR3","Phosphate","Eugleno",0.100422354406693,0.215227763612391
+"1464","CC1","Phosphate","Eugleno",0.0575502861136921,0.353707901699274
+"1465","CH1","Phosphate","Eugleno",0.14757972981098,0.141815024889575
+"1466","CH2","Phosphate","Eugleno",0.00771057071670615,0.765322590809202
+"1467","CH3","Phosphate","Eugleno",0.400189074598095,0.00854310780617678
+"1468","CS1","Phosphate","Eugleno",0.0194466942136242,0.5934816371916
+"1469","FB1","Phosphate","Eugleno",0.305536476024904,0.0213796641438976
+"1470","FC1","Phosphate","Eugleno",0.0208436738729119,0.593717201420691
+"1471","HC1","Phosphate","Eugleno",0.0609569363828581,0.394794060836373
+"1472","HC2","Phosphate","Eugleno",0.133910639054793,0.148584870022518
+"1473","JIC1","Phosphate","Eugleno",0.000958629542741175,0.912777093540288
+"1474","JIC2","Phosphate","Eugleno",0.000512249675916773,0.931291295991226
+"1475","SC1","Phosphate","Eugleno",0.0576667423168861,0.353206545982948
+"1476","SC2","Phosphate","Eugleno",0.182355455069906,0.0873435354424069
+"1477","SC3","Phosphate","Eugleno",0.158118930662427,0.113962020552451
+"1478","SR1","Phosphate","Eugleno",0.00141262114596072,0.886122620908319
+"1479","WC1","Phosphate","Eugleno",0.0103021182597841,0.698297514689818
+"1480","WR1","Phosphate","Eugleno",0.00596487455947829,0.776184322278151
+"1481","AR1","Nitrate","Eugleno",0.0375428865177293,0.488982585165553
+"1482","AR2","Nitrate","Eugleno",0.0727466345653362,0.295134869863101
+"1483","AR3","Nitrate","Eugleno",0.0569204191003448,0.356435394693969
+"1484","CC1","Nitrate","Eugleno",0.238872096001231,0.046503270295426
+"1485","CH1","Nitrate","Eugleno",0.0440750455190599,0.435155240919191
+"1486","CH2","Nitrate","Eugleno",0.0184961417489241,0.642942905023039
+"1487","CH3","Nitrate","Eugleno",0.237171531954207,0.0557239875352603
+"1488","CS1","Nitrate","Eugleno",0.00249544800074607,0.848998165235061
+"1489","FB1","Nitrate","Eugleno",0.0625301118090774,0.333049844318511
+"1490","FC1","Nitrate","Eugleno",0.0177329304412699,0.622965840469737
+"1491","HC1","Nitrate","Eugleno",0.124932585016442,0.215078538731102
+"1492","HC2","Nitrate","Eugleno",0.00281040173060188,0.839861154133091
+"1493","JIC1","Nitrate","Eugleno",0.00134258003756689,0.896849854763807
+"1494","JIC2","Nitrate","Eugleno",0.035875650782467,0.466553423677624
+"1495","SC1","Nitrate","Eugleno",7.21457080406902e-05,0.974189872567484
+"1496","SC2","Nitrate","Eugleno",0.103802573015739,0.207245803941968
+"1497","SC3","Nitrate","Eugleno",0.185687588985867,0.0841961753279721
+"1498","SR1","Nitrate","Eugleno",0.00155855389894652,0.880422784111775
+"1499","WC1","Nitrate","Eugleno",0.000488041145726891,0.932930989912189
+"1500","WR1","Nitrate","Eugleno",0.0269219361165487,0.543707738042606
