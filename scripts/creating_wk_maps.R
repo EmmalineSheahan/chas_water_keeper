@@ -820,3 +820,68 @@ for (i in seq_along(date_list5)) {
                "PC:Chlorophyll a")
 }
 dev.off()
+
+# N:P ratio maps
+which(wk_master$N_to_P_ratio == max(wk_master$N_to_P_ratio, na.rm =T))
+wk_master[484,]
+
+# max week is 10/20/2021
+x_range <- as.numeric(c(-80.0075, -79.84617))
+y_range <- as.numeric(c(32.65034, 32.90124))
+grd_wk <- expand.grid(x = seq(from = x_range[1],
+                              to = x_range[2], 
+                              by = 0.005),
+                      y = seq(from = y_range[1], to = y_range[2], 
+                              by = 0.005))  # expand points to grid
+coordinates(grd_wk) <- ~x + y
+gridded(grd_wk) <- TRUE
+temp_data_test <- wk_master %>% filter(Date_Extracted == "10/20/2021") %>% 
+  filter(!is.na(N_to_P_ratio))
+coordinates(temp_data_test) <- ~Longitude+Latitude
+
+idw_pow1 <- gstat::idw(formula = N_to_P_ratio ~ 1,
+                       locations = temp_data_test,
+                       newdata = grd_wk,
+                       idp = 1)
+wanted_ras <- raster(idw_pow1)
+proj4string(wanted_ras) <- wanted_crs_2
+max(wanted_ras@data@values)
+
+# max value is 657.4483
+
+which(wk_master$N_to_P_ratio == min(wk_master$N_to_P_ratio, na.rm =T))
+wk_master[509,]
+
+# min week is 7/7/2021
+x_range <- as.numeric(c(-80.0075, -79.84617))
+y_range <- as.numeric(c(32.65034, 32.90124))
+grd_wk <- expand.grid(x = seq(from = x_range[1],
+                              to = x_range[2], 
+                              by = 0.005),
+                      y = seq(from = y_range[1], to = y_range[2], 
+                              by = 0.005))  # expand points to grid
+coordinates(grd_wk) <- ~x + y
+gridded(grd_wk) <- TRUE
+temp_data_test <- wk_master %>% filter(Date_Extracted == "7/7/2021") %>% 
+  filter(!is.na(N_to_P_ratio))
+coordinates(temp_data_test) <- ~Longitude+Latitude
+
+idw_pow1 <- gstat::idw(formula = N_to_P_ratio ~ 1,
+                       locations = temp_data_test,
+                       newdata = grd_wk,
+                       idp = 1)
+wanted_ras <- raster(idw_pow1)
+proj4string(wanted_ras) <- wanted_crs_2
+min(wanted_ras@data@values)
+
+# min value is 7.22204
+
+NP_range <- c( 7.22204, 657.4483)
+
+pdf('./figures/Nitrate_to_Phosphate_ratio_All_Weeks.pdf')
+for (i in seq_along(date_list2)) {
+  make_cwk_map(wk_master, date_list2[i], 'N_to_P_ratio', NP_range, is.reversed = F, wanted_bias = 1,
+               "Nitrate to Phosphate Ratio", date_list2[i], 
+               "N:P")
+}
+dev.off()

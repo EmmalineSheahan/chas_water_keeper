@@ -102,4 +102,16 @@ wk_master <- merge(wk_master, wk_chemtax, by = c("Date_Extracted", "Sample_ID"),
 
 wk_master <- wk_master[order(as.Date(wk_master$Date_Extracted, format="%m/%d/%Y")),]
 
+# adding a column for N:P ratio
+nit <- wk_master$Nitrate
+pho <- wk_master$Phosphate
+length(nit)
+length(pho)
+
+nit_pho <- c(nit/pho)
+length(nit_pho)
+N_to_P_ratio <- nit_pho
+wk_master <- cbind(wk_master, N_to_P_ratio)
+wk_master$N_to_P_ratio[wk_master$N_to_P_ratio == Inf] <- 0
+
 save(wk_master, file = './data/wk_master.Rdata')
