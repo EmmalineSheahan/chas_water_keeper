@@ -143,4 +143,42 @@ pdf('./figures/pca_plot_all_framed.pdf')
 autoplot(pca_all, data = new_matrix_omit, colour = "Regions", size = 4, frame = T, frame.type = "norm") 
 dev.off()
 
+# total pca by impervious surface
+load('./data/imperv_df.Rdata')
 
+Imperviousness <- rep(imperv_df$Impervious_Index, times = 26)
+new_matrix2 <- cbind(new_matrix, Imperviousness)
+new_matrix_omit2 <- na.omit(new_matrix2)
+colnames(new_matrix_omit2) <- c("Regions", "Site", "Tide", "Chlorophyll", "Phycocyanin", "Temperature", 
+                               "Nitrate", "Phosphate", "Imperviousness")
+
+pdf('./figures/pca_plot_impervious.pdf')
+autoplot(pca_all, data = new_matrix_omit2, colour = "Imperviousness", size = 4) 
+dev.off()
+
+pdf('./figures/pca_plot_impervious_framed.pdf')
+autoplot(pca_all, data = new_matrix_omit2, colour = "Imperviousness", size = 4, frame = T, frame.type = "norm") 
+dev.off()
+
+# pca grouped by impervious surface, nutrients and pigments only
+pca_nuts_mat <- cbind(new_matrix$Sample_ID, Imperviousness, new_matrix$Chlorophyll, 
+                      new_matrix$Phycocyanin, new_matrix$Nitrate,
+                      new_matrix$Phosphate)
+pca_nuts_mat <- data.frame(pca_nuts_mat)
+colnames(pca_nuts_mat) <- c("Site", "Imperviousness", "Chlorophyll", "Phycocyanin", "Nitrate", "Phosphate")
+pca_nuts_mat$Chlorophyll <- as.numeric(pca_nuts_mat$Chlorophyll)
+pca_nuts_mat$Phycocyanin <- as.numeric(pca_nuts_mat$Phycocyanin)
+pca_nuts_mat$Nitrate <- as.numeric(pca_nuts_mat$Nitrate)
+pca_nuts_mat$Phosphate <- as.numeric(pca_nuts_mat$Phosphate)
+pca_nuts_mat <- na.omit(pca_nuts_mat)
+pca_nuts_only <- pca_nuts_mat[,3:6]
+pca_nuts_all <- prcomp(pca_nuts_only, scale = T, center = T)
+
+pdf('./figures/pca_plot_impervious_nuts.pdf')
+autoplot(pca_nuts_all, data = pca_nuts_mat, colour = "Imperviousness", size = 4) 
+dev.off()
+
+pdf('./figures/pca_plot_impervious_nuts_framed.pdf')
+autoplot(pca_nuts_all, data = pca_nuts_mat, colour = "Imperviousness", size = 4, frame = T, 
+         frame.type = "norm") 
+dev.off()
