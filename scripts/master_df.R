@@ -115,3 +115,21 @@ wk_master <- cbind(wk_master, N_to_P_ratio)
 wk_master$N_to_P_ratio[wk_master$N_to_P_ratio == Inf] <- 0
 
 save(wk_master, file = './data/wk_master.Rdata')
+
+# adding new columns and tide classes
+wk_new <- read.csv('./data/WK_final_data.csv')
+colnames(wk_new)
+dim(wk_new)
+dim(wk_master)
+colnames(wk_master)
+
+for_bind <- cbind(wk_new$Tide.Class, wk_new$pH, wk_new$Alkalinity, wk_new$TCO2)
+colnames(for_bind) <- c("Tide_Class", "pH", "Alkalinity", "TCO2")
+wk_master <- cbind(wk_master, for_bind)
+dim(wk_master)
+head(wk_master)
+wk_master$pH <- as.numeric(wk_master$pH)
+wk_master$Alkalinity <- as.numeric(wk_master$Alkalinity)
+wk_master$TCO2 <- as.numeric(wk_master$TCO2)
+
+save(wk_master, file = './data/wk_master.Rdata')

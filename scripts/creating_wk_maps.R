@@ -885,3 +885,133 @@ for (i in seq_along(date_list2)) {
                "N:P")
 }
 dev.off()
+
+# pH maps
+which(wk_master$pH == max(wk_master$pH, na.rm =T))
+wk_master[270,]
+
+# max week is 8/4/2021
+x_range <- as.numeric(c(-80.0075, -79.84617))
+y_range <- as.numeric(c(32.65034, 32.90124))
+grd_wk <- expand.grid(x = seq(from = x_range[1],
+                              to = x_range[2], 
+                              by = 0.005),
+                      y = seq(from = y_range[1], to = y_range[2], 
+                              by = 0.005))  # expand points to grid
+coordinates(grd_wk) <- ~x + y
+gridded(grd_wk) <- TRUE
+temp_data_test <- wk_master %>% filter(Date_Extracted == "8/4/2021") %>% 
+  filter(!is.na(pH))
+coordinates(temp_data_test) <- ~Longitude+Latitude
+
+idw_pow1 <- gstat::idw(formula = pH ~ 1,
+                       locations = temp_data_test,
+                       newdata = grd_wk,
+                       idp = 1)
+wanted_ras <- raster(idw_pow1)
+proj4string(wanted_ras) <- wanted_crs_2
+max(wanted_ras@data@values)
+
+# max value is 9.230936
+
+which(wk_master$pH == min(wk_master$pH, na.rm =T))
+wk_master[295,]
+
+# min week is 8/11/2021
+x_range <- as.numeric(c(-80.0075, -79.84617))
+y_range <- as.numeric(c(32.65034, 32.90124))
+grd_wk <- expand.grid(x = seq(from = x_range[1],
+                              to = x_range[2], 
+                              by = 0.005),
+                      y = seq(from = y_range[1], to = y_range[2], 
+                              by = 0.005))  # expand points to grid
+coordinates(grd_wk) <- ~x + y
+gridded(grd_wk) <- TRUE
+temp_data_test <- wk_master %>% filter(Date_Extracted == "8/11/2021") %>% 
+  filter(!is.na(pH))
+coordinates(temp_data_test) <- ~Longitude+Latitude
+
+idw_pow1 <- gstat::idw(formula = pH ~ 1,
+                       locations = temp_data_test,
+                       newdata = grd_wk,
+                       idp = 1)
+wanted_ras <- raster(idw_pow1)
+proj4string(wanted_ras) <- wanted_crs_2
+min(wanted_ras@data@values)
+
+# min value is 7.826373
+
+ph_range <- c( 7.826373, 9.230936)
+
+pdf('./figures/pH_All_Weeks.pdf')
+for (i in seq_along(date_list2)) {
+  make_cwk_map(wk_master, date_list2[i], 'pH', ph_range, is.reversed = F, wanted_bias = 1,
+               "pH", date_list2[i], 
+               "pH")
+}
+dev.off()
+
+# Alkalinity maps
+which(wk_master$Alkalinity == max(wk_master$Alkalinity, na.rm =T))
+wk_master[269,]
+
+# max week is 8/4/2021
+x_range <- as.numeric(c(-80.0075, -79.84617))
+y_range <- as.numeric(c(32.65034, 32.90124))
+grd_wk <- expand.grid(x = seq(from = x_range[1],
+                              to = x_range[2], 
+                              by = 0.005),
+                      y = seq(from = y_range[1], to = y_range[2], 
+                              by = 0.005))  # expand points to grid
+coordinates(grd_wk) <- ~x + y
+gridded(grd_wk) <- TRUE
+temp_data_test <- wk_master %>% filter(Date_Extracted == "8/4/2021") %>% 
+  filter(!is.na(Alkalinity))
+coordinates(temp_data_test) <- ~Longitude+Latitude
+
+idw_pow1 <- gstat::idw(formula = Alkalinity ~ 1,
+                       locations = temp_data_test,
+                       newdata = grd_wk,
+                       idp = 1)
+wanted_ras <- raster(idw_pow1)
+proj4string(wanted_ras) <- wanted_crs_2
+max(wanted_ras@data@values)
+
+# max value is 3.414022
+
+which(wk_master$Alkalinity == min(wk_master$Alkalinity, na.rm =T))
+wk_master[232,]
+
+# min week is 7/21/2021
+x_range <- as.numeric(c(-80.0075, -79.84617))
+y_range <- as.numeric(c(32.65034, 32.90124))
+grd_wk <- expand.grid(x = seq(from = x_range[1],
+                              to = x_range[2], 
+                              by = 0.005),
+                      y = seq(from = y_range[1], to = y_range[2], 
+                              by = 0.005))  # expand points to grid
+coordinates(grd_wk) <- ~x + y
+gridded(grd_wk) <- TRUE
+temp_data_test <- wk_master %>% filter(Date_Extracted == "7/21/2021") %>% 
+  filter(!is.na(Alkalinity))
+coordinates(temp_data_test) <- ~Longitude+Latitude
+
+idw_pow1 <- gstat::idw(formula = Alkalinity ~ 1,
+                       locations = temp_data_test,
+                       newdata = grd_wk,
+                       idp = 1)
+wanted_ras <- raster(idw_pow1)
+proj4string(wanted_ras) <- wanted_crs_2
+min(wanted_ras@data@values)
+
+# min value is -1.440647
+
+alk_range <- c( -1.440647, 3.414022)
+
+pdf('./figures/Alkalinity_All_Weeks.pdf')
+for (i in seq_along(date_list2)) {
+  make_cwk_map(wk_master, date_list2[i], 'Alkalinity', alk_range, is.reversed = F, wanted_bias = 1,
+               "Alkalinity", date_list2[i], 
+               "Alkalinity (meq/L")
+}
+dev.off()

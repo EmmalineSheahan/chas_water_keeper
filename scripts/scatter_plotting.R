@@ -473,3 +473,102 @@ for (i in seq_along(site_list)) {
 }
 dev.off()
 save(site_phycoerytherin_v_cyanos_stats, file = './stats/site_phycoerytherin_vs_cyanos_stats.Rdata')
+
+# pH vs Chlorophyll
+pdf('./figures/site_pH_vs_chlorophyll.pdf')
+site_ph_v_chlorophyll_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "pH", "Chlorophyll_conc", "pH", 
+                   "Chlorophyll Concentration (μg/L)", site_list[i])
+  site_ph_v_chlorophyll_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_chlorophyll_stats, file = './stats/site_ph_v_chlorophyll_stats.Rdata')
+
+# pH vs Phycocyanin
+pdf('./figures/site_pH_vs_phycocyanin.pdf')
+site_ph_v_pc_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "pH", "Phycocyanin_conc", "pH", 
+                   "Phycocyanin Concentration (μg/L)", site_list[i])
+  site_ph_v_pc_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_pc_stats, file = './stats/site_ph_v_pc_stats.Rdata')
+
+# pH vs Phycoerytherin
+pdf('./figures/site_pH_vs_phycoerytherin.pdf')
+site_ph_v_pe_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "pH", "Phycoerytherin_conc", "pH", 
+                   "Phycoerytherin Concentration (μg/L)", site_list[i])
+  site_ph_v_pe_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_pe_stats, file = './stats/site_ph_v_pe_stats.Rdata')
+
+# pH vs Phosphate
+pdf('./figures/site_pH_vs_phosphate.pdf')
+site_ph_v_phosphate_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Phosphate", "pH", "Phosphate Concentration (uM)", 
+                   "pH", site_list[i])
+  site_ph_v_phosphate_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_phosphate_stats, file = './stats/site_ph_v_phosphate_stats.Rdata')
+
+# pH vs Nitrate
+pdf('./figures/site_pH_vs_nitrate.pdf')
+site_ph_v_nitrate_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Nitrate", "pH", "Nitrate Concentration (uM)", 
+                   "pH", site_list[i])
+  site_ph_v_nitrate_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_nitrate_stats, file = './stats/site_ph_v_nitrate_stats.Rdata')
+
+# pH vs salinity
+pdf('./figures/site_pH_vs_salinity.pdf')
+site_ph_v_salinity_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Salinity", "pH", "Salinity (ppt)", 
+                   "pH", site_list[i])
+  site_ph_v_salinity_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_salinity_stats, file = './stats/site_ph_v_salinity_stats.Rdata')
+
+# pH vs tide
+pdf('./figures/site_pH_vs_tide.pdf')
+site_ph_v_tide_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Tidal_height", "pH", "Tidal Height (in)", 
+                   "pH", site_list[i])
+  site_ph_v_tide_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_tide_stats, file = './stats/site_ph_v_tide_stats.Rdata')
+
+# pH vs temperature
+pdf('./figures/site_pH_vs_temp.pdf')
+site_ph_v_temp_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Temp", "pH", "Temperature (°C)", 
+                   "pH", site_list[i])
+  site_ph_v_temp_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_temp_stats, file = './stats/site_ph_v_temp_stats.Rdata')
+
+# pH vs CDOM
+pdf('./figures/site_pH_vs_cdom.pdf')
+site_ph_v_cdom_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "cdom_abs_d", "pH", "CDOM (Absorbance at 412 nm)", 
+                   "pH", site_list[i])
+  site_ph_v_cdom_stats[[i]] <- p
+}
+dev.off()
+save(site_ph_v_cdom_stats, file = './stats/site_ph_v_cdom_stats.Rdata')

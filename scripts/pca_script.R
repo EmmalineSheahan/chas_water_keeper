@@ -6,12 +6,14 @@ library(ggfortify)
 load('./data/wk_master.Rdata')
 
 # create matrix of wanted variables only
-new_matrix <- cbind(wk_master$Sample_ID, wk_master$Tidal_height, wk_master$Chlorophyll_conc,
+new_matrix <- cbind(wk_master$Sample_ID, wk_master$Date_Extracted, wk_master$Tide_Class,
+                    wk_master$Tidal_height, 
+                    wk_master$Chlorophyll_conc,
                     wk_master$Phycocyanin_conc, wk_master$Temp, wk_master$Nitrate, wk_master$Phosphate)
 View(new_matrix)
 class(new_matrix)
 new_matrix <- data.frame(new_matrix)
-colnames(new_matrix) <- c("Sample_ID", "Tide", "Chlorophyll", "Phycocyanin",
+colnames(new_matrix) <- c("Sample_ID", "Date_Extracted", "Tide_Class", "Tide", "Chlorophyll", "Phycocyanin",
                           "Temperature", "Nitrate", "Phosphate")
 
 site_list <- unique(new_matrix$Sample_ID)
@@ -20,7 +22,7 @@ pca_list <- vector("list", length = 20)
 # pca by site
 for (i in seq_along(site_list)) {
 site_df <- new_matrix %>% filter(Sample_ID == site_list[i])
-site_mat <- site_df[, 2:7]
+site_mat <- site_df[, 4:9]
 site_mat$Tide <- as.numeric(site_mat$Tide)
 site_mat$Chlorophyll <- as.numeric(site_mat$Chlorophyll)
 site_mat$Phycocyanin <- as.numeric(site_mat$Phycocyanin)
@@ -43,6 +45,35 @@ for (i in seq_along(site_list)) {
   biplot(pca_list[[i]], scale = 0,
          xlim = c(-3,3), ylim = c(-3,3))
   title(paste0("Biplot of Principal Components for Site ", site_list[i]), line = 2.8)
+}
+dev.off()
+
+# pca by date
+date_pca <- na.omit(new_matrix)
+date_list <- unique(date_pca$Date_Extracted)
+pca_by_date <- vector("list", length = length(date_list))
+
+for (i in seq_along(date_list)) {
+  site_df <- date_pca %>% filter(Date_Extracted == date_list[i])
+  site_mat <- site_df[, 4:9]
+  site_mat$Tide <- as.numeric(site_mat$Tide)
+  site_mat$Chlorophyll <- as.numeric(site_mat$Chlorophyll)
+  site_mat$Phycocyanin <- as.numeric(site_mat$Phycocyanin)
+  site_mat$Temperature <- as.numeric(site_mat$Temperature)
+  site_mat$Nitrate <- as.numeric(site_mat$Nitrate)
+  site_mat$Phosphate <- as.numeric(site_mat$Phosphate)
+  pca <- prcomp(site_mat, scale = T, center = T)
+  pca_by_date[[i]] <- pca
+}
+save(pca_by_date, file = './stats/pca_by_date.Rdata')
+
+summary(pca_by_date[[1]])
+
+pdf('./figures/pca_by_date_biplots.pdf')
+for (i in seq_along(date_list)) {
+  biplot(pca_by_date[[i]], scale = 0,
+         xlim = c(-3,3), ylim = c(-3,3))
+  title(paste0("Biplot of Principal Components for ", date_list[i]), line = 2.8)
 }
 dev.off()
   
@@ -121,7 +152,7 @@ regions <- c("Ashley River", "Ashley River", "Ashley River", "Barrier Islands", 
 dim(new_matrix)
 Regions <- rep(regions, times = 26)
 new_matrix <- cbind(Regions, new_matrix)
-pca_matrix <- new_matrix[,3:8]
+pca_matrix <- new_matrix[,5:10]
 pca_matrix$Tide <- as.numeric(pca_matrix$Tide)
 pca_matrix$Chlorophyll <- as.numeric(pca_matrix$Chlorophyll)
 pca_matrix$Phycocyanin <- as.numeric(pca_matrix$Phycocyanin)
@@ -133,7 +164,8 @@ pca_all <- prcomp(pca_matrix, scale = T, center = T)
 
 # pca plot
 new_matrix_omit <- na.omit(new_matrix)
-colnames(new_matrix_omit) <- c("Regions", "Site", "Tide", "Chlorophyll", "Phycocyanin", "Temperature", 
+colnames(new_matrix_omit) <- c("Regions", "Site", "Date", "Tide_Class", "Tide", "Chlorophyll", 
+                               "Phycocyanin", "Temperature", 
                                "Nitrate", "Phosphate")
 pdf('./figures/pca_plot_all.pdf')
 autoplot(pca_all, data = new_matrix_omit, colour = "Regions", size = 4) 
@@ -149,7 +181,8 @@ load('./data/imperv_df.Rdata')
 Imperviousness <- rep(imperv_df$Impervious_Index, times = 26)
 new_matrix2 <- cbind(new_matrix, Imperviousness)
 new_matrix_omit2 <- na.omit(new_matrix2)
-colnames(new_matrix_omit2) <- c("Regions", "Site", "Tide", "Chlorophyll", "Phycocyanin", "Temperature", 
+colnames(new_matrix_omit2) <- c("Regions", "Site", "Date", "Tide_Class", "Tide", "Chlorophyll", "Phycocyanin", 
+                                "Temperature", 
                                "Nitrate", "Phosphate", "Imperviousness")
 
 pdf('./figures/pca_plot_impervious.pdf')
@@ -160,18 +193,28 @@ pdf('./figures/pca_plot_impervious_framed.pdf')
 autoplot(pca_all, data = new_matrix_omit2, colour = "Imperviousness", size = 4, frame = T, frame.type = "norm") 
 dev.off()
 
+# pca all grouped by tide class
+pdf('./figures/pca_plot_tide_class.pdf')
+autoplot(pca_all, data = new_matrix_omit2, colour = "Tide_Class", size = 4) 
+dev.off()
+
+pdf('./figures/pca_plot_tide_class_framed.pdf')
+autoplot(pca_all, data = new_matrix_omit2, colour = "Tide_Class", size = 4, frame = T, frame.type = "norm") 
+dev.off()
+
 # pca grouped by impervious surface, nutrients and pigments only
-pca_nuts_mat <- cbind(new_matrix$Sample_ID, Imperviousness, new_matrix$Chlorophyll, 
+pca_nuts_mat <- cbind(new_matrix$Sample_ID, new_matrix$Tide_Class, Imperviousness, new_matrix$Chlorophyll, 
                       new_matrix$Phycocyanin, new_matrix$Nitrate,
                       new_matrix$Phosphate)
 pca_nuts_mat <- data.frame(pca_nuts_mat)
-colnames(pca_nuts_mat) <- c("Site", "Imperviousness", "Chlorophyll", "Phycocyanin", "Nitrate", "Phosphate")
+colnames(pca_nuts_mat) <- c("Site", "Tide_Class", "Imperviousness", 
+                            "Chlorophyll", "Phycocyanin", "Nitrate", "Phosphate")
 pca_nuts_mat$Chlorophyll <- as.numeric(pca_nuts_mat$Chlorophyll)
 pca_nuts_mat$Phycocyanin <- as.numeric(pca_nuts_mat$Phycocyanin)
 pca_nuts_mat$Nitrate <- as.numeric(pca_nuts_mat$Nitrate)
 pca_nuts_mat$Phosphate <- as.numeric(pca_nuts_mat$Phosphate)
 pca_nuts_mat <- na.omit(pca_nuts_mat)
-pca_nuts_only <- pca_nuts_mat[,3:6]
+pca_nuts_only <- pca_nuts_mat[,4:7]
 pca_nuts_all <- prcomp(pca_nuts_only, scale = T, center = T)
 
 pdf('./figures/pca_plot_impervious_nuts.pdf')
@@ -182,3 +225,60 @@ pdf('./figures/pca_plot_impervious_nuts_framed.pdf')
 autoplot(pca_nuts_all, data = pca_nuts_mat, colour = "Imperviousness", size = 4, frame = T, 
          frame.type = "norm") 
 dev.off()
+
+# pca nutrients only by tide class
+pdf('./figures/pca_plot_tide_nuts.pdf')
+autoplot(pca_nuts_all, data = pca_nuts_mat, colour = "Tide_Class", size = 4) 
+dev.off()
+
+pdf('./figures/pca_plot_tide_nuts_framed.pdf')
+autoplot(pca_nuts_all, data = pca_nuts_mat, colour = "Tide_Class", size = 4, frame = T, 
+         frame.type = "norm") 
+dev.off()
+
+# pca nutrients and pigments, 5 highest and five lowest urbanization only
+hi_lo_urban <- cbind(new_matrix$Sample_ID, new_matrix$Chlorophyll, 
+                      new_matrix$Phycocyanin, new_matrix$Nitrate,
+                      new_matrix$Phosphate)
+hi_lo_urban <- data.frame(hi_lo_urban)
+colnames(hi_lo_urban) <- c("Site", "Chlorophyll", "Phycocyanin", "Nitrate", "Phosphate")
+wanted_sites <- c("AR1", "AR2", "AR3", "CC1", "CH3", "CS1", "FC1", "JIC1", "SR1", "WR1")
+needed_mat_list <- vector("list", length = length(wanted_sites))
+for (i in seq_along(wanted_sites)) {
+    t <- hi_lo_urban %>% filter(Site == wanted_sites[i])
+    needed_mat_list[[i]] <- t
+}
+
+needed_mat <- rbind(needed_mat_list[[1]], needed_mat_list[[2]], needed_mat_list[[3]], needed_mat_list[[4]],
+                    needed_mat_list[[5]], needed_mat_list[[6]], needed_mat_list[[7]], needed_mat_list[[8]],
+                    needed_mat_list[[9]], needed_mat_list[[10]])
+head(needed_mat)
+impervious <- c(rep("High", times = 52), rep("Low", times = 52), rep("High", times = 26), rep("Low", times = 26),
+                rep("High", times = 26), rep("Low", times = 52), rep("High", times = 26))
+needed_mat2 <- cbind(needed_mat, impervious)
+colnames(needed_mat2) <- c("Site", "Chlorophyll", "Phycocyanin", "Nitrate", "Phosphate", "Imperviousness")
+needed_mat3 <- na.omit(needed_mat2)
+needed_mat_pca <- needed_mat3[,2:5]
+needed_mat_pca$Chlorophyll <- as.numeric(needed_mat_pca$Chlorophyll)
+needed_mat_pca$Phycocyanin <- as.numeric(needed_mat_pca$Phycocyanin)
+needed_mat_pca$Nitrate <- as.numeric(needed_mat_pca$Nitrate)
+needed_mat_pca$Phosphate <- as.numeric(needed_mat_pca$Phosphate)
+hi_lo_pca <- prcomp(needed_mat_pca, scale = T, center = T)
+
+pdf('./figures/pca_plot_highest_and_lowest_impervious_nuts.pdf')
+autoplot(hi_lo_pca, data = needed_mat3, colour = "Imperviousness", size = 4) 
+dev.off()
+
+pdf('./figures/pca_plot_highest_and_lowest_impervious_nuts_framed.pdf')
+autoplot(hi_lo_pca, data = needed_mat3, colour = "Imperviousness", size = 4, frame = T, 
+         frame.type = "norm") 
+dev.off()
+
+# investigating 
+high_urban <- needed_mat3 %>% filter(Imperviousness == "High")
+low_urban <- needed_mat3 %>% filter(Imperviousness == "Low")
+
+plot(high_urban$Nitrate, high_urban$Chlorophyll)
+plot(high_urban$Phosphate, high_urban$Chlorophyll)
+plot(high_urban$Phosphate, high_urban$Phycocyanin)
+plot(high_urban$Nitrate, high_urban$Phycocyanin)

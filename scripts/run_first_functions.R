@@ -131,9 +131,11 @@ cor_ggplot <- function(wanted_data, wanted_date, x_val, y_val, x_lab, y_lab, plo
 # y_lab = y axis label in character
 # plot_title = title for plot, date
 site_ggplot <- function(wanted_data, wanted_site, x_val, y_val, x_lab, y_lab, plot_title) {
-  tmp_dat <- wanted_data %>% filter(Sample_ID == wanted_site)
-  x = eval(parse(text = paste0('tmp_dat$', x_val)))
-  y = eval(parse(text = paste0('tmp_dat$', y_val)))
+  tmp_dat <- wanted_data %>% filter(Sample_ID == wanted_site) %>%
+  filter(!is.na(eval(parse(text = paste0(x_val))))) %>%
+    filter(!is.na(eval(parse(text = paste0(y_val)))))
+  x = as.numeric(eval(parse(text = paste0('tmp_dat$', x_val))))
+  y = as.numeric(eval(parse(text = paste0('tmp_dat$', y_val))))
   lin <- lm(data = tmp_dat, y ~ x)
   p <- ggplot(data = tmp_dat, mapping = aes(x, y)) +
     geom_point() +
@@ -145,7 +147,7 @@ site_ggplot <- function(wanted_data, wanted_site, x_val, y_val, x_lab, y_lab, pl
     theme(plot.title = element_text(hjust = 0.5, size = 17), axis.title.x = element_text(size = 16), 
           axis.title.y = element_text(size = 16))
   print(p)
-  print(lin)
+   print(lin)
   return(lin)
 }
 
