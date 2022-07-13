@@ -572,3 +572,113 @@ for (i in seq_along(site_list)) {
 }
 dev.off()
 save(site_ph_v_cdom_stats, file = './stats/site_ph_v_cdom_stats.Rdata')
+
+# Alkalinity vs Chlorophyll
+pdf('./figures/site_alkalinity_vs_chlorophyll.pdf')
+site_alk_v_chlorophyll_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Alkalinity", "Chlorophyll_conc", "Alkalinity (meq/L)", 
+                   "Chlorophyll Concentration (μg/L)", site_list[i])
+  site_alk_v_chlorophyll_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_chlorophyll_stats, file = './stats/site_alk_v_chlorophyll_stats.Rdata')
+
+# Alkalinity vs Phycocyanin
+pdf('./figures/site_alkalinity_vs_phycocyanin.pdf')
+site_alk_v_pc_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Alkalinity", "Phycocyanin_conc", "Alkalinity (meq/L)", 
+                   "Phycocyanin Concentration (μg/L)", site_list[i])
+  site_alk_v_pc_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_pc_stats, file = './stats/site_alk_v_pc_stats.Rdata')
+
+# Alkalinity vs Phycoerytherin
+pdf('./figures/site_alkalinity_vs_phycoerytherin.pdf')
+site_alk_v_pe_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Alkalinity", "Phycoerytherin_conc", "Alkalinity (meq/L)", 
+                   "Phycoerytherin Concentration (μg/L)", site_list[i])
+  site_alk_v_pe_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_pe_stats, file = './stats/site_alk_v_pe_stats.Rdata')
+
+# Alkalinity vs Phosphate
+pdf('./figures/site_alkalinity_vs_phosphate.pdf')
+site_alk_v_phosphate_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Phosphate", "Alkalinity", "Phosphate Concentration (uM)", 
+                   "Alkalinity (meq/L)", site_list[i])
+  site_alk_v_phosphate_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_phosphate_stats, file = './stats/site_alk_v_phosphate_stats.Rdata')
+
+# Alkalinity vs Nitrate
+pdf('./figures/site_alkalinity_vs_nitrate.pdf')
+site_alk_v_nitrate_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Nitrate", "Alkalinity", "Nitrate Concentration (uM)", 
+                   "Alkalinity (meq/L)", site_list[i])
+  site_alk_v_nitrate_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_nitrate_stats, file = './stats/site_alk_v_nitrate_stats.Rdata')
+
+# Alkalinity vs salinity
+pdf('./figures/site_alkalinity_vs_salinity.pdf')
+site_alk_v_salinity_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Salinity", "Alkalinity", "Salinity (ppt)", 
+                   "Alkalinity (meq/L)", site_list[i])
+  site_alk_v_salinity_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_salinity_stats, file = './stats/site_alk_v_salinity_stats.Rdata')
+
+# Alkalinity vs tide
+pdf('./figures/site_alkalinity_vs_tide.pdf')
+site_alk_v_tide_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Tidal_height", "Alkalinity", "Tidal Height (in)", 
+                   "Alkalinity (meq/L)", site_list[i])
+  site_alk_v_tide_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_tide_stats, file = './stats/site_alk_v_tide_stats.Rdata')
+
+# Alkalinity vs temperature
+pdf('./figures/site_alkalinity_vs_temp.pdf')
+site_alk_v_temp_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Temp", "Alkalinity", "Temperature (°C)", 
+                   "Alkalinity (meq/L)", site_list[i])
+  site_alk_v_temp_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_temp_stats, file = './stats/site_alk_v_temp_stats.Rdata')
+
+# Alkalinity vs CDOM
+pdf('./figures/site_alkalinity_vs_cdom.pdf')
+site_alk_v_cdom_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "cdom_abs_d", "Alkalinity", "CDOM (Absorbance at 412 nm)", 
+                   "Alkalinity (meq/L)", site_list[i])
+  site_alk_v_cdom_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_cdom_stats, file = './stats/site_alk_v_cdom_stats.Rdata')
+
+# Alkalinity vs pH
+pdf('./figures/site_alkalinity_vs_pH.pdf')
+site_alk_v_ph_stats <- vector("list", length = length(site_list))
+for (i in seq_along(site_list)) {
+  p <- site_ggplot(wk_master, site_list[i], "Alkalinity", "pH", "Alkalinity (meq/L)", 
+                   "pH", site_list[i])
+  site_alk_v_ph_stats[[i]] <- p
+}
+dev.off()
+save(site_alk_v_ph_stats, file = './stats/site_alk_v_ph_stats.Rdata')
