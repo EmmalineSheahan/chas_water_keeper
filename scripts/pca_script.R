@@ -143,6 +143,63 @@ variance_dataframe <- rbind(var_list[[1]], var_list[[2]], var_list[[3]], var_lis
                             var_list[[17]], var_list[[18]], var_list[[19]], var_list[[20]])
 write.csv(variance_dataframe, file = './data/pca_variance_df.csv')
 
+# total PCA with alkalinity and pH, grouped by month
+all_matrix <- cbind(wk_master$Sample_ID, wk_master$Date_Extracted,
+                    wk_master$Tidal_height, 
+                    wk_master$Chlorophyll_conc,
+                    wk_master$Phycocyanin_conc,
+                    wk_master$Phycoerytherin_conc,
+                    wk_master$Temp, 
+                    wk_master$Nitrate, 
+                    wk_master$Phosphate,
+                    wk_master$Salinity,
+                    wk_master$Alkalinity,
+                    wk_master$pH)
+View(all_matrix)
+class(all_matrix)
+all_matrix <- data.frame(all_matrix)
+colnames(all_matrix) <- c("Sample_ID", "Date_Extracted", "Tide", "Chlorophyll", "Phycocyanin", "Phycoerytherin",
+                          "Temperature", "Nitrate", "Phosphate", "Salinity", "Alkalinity", "pH")
+Month <- c(rep("April", times = 20), rep("May", times = 60), rep("June", times = 100), rep("July", times = 80),
+           rep("August", times = 80), rep("September", times = 100), rep("October", times = 80))
+all_matrix <- cbind(Month, all_matrix)
+pca_all_matrix <- all_matrix[,4:13]
+for (i in (1:10)) {
+  pca_all_matrix[,i] <- as.numeric(pca_all_matrix[,i])
+}
+pca_all_matrix <- na.omit(pca_all_matrix)
+all_pca_call <- prcomp(pca_all_matrix, scale = T, center = T)
+
+all_matrix_omit <- na.omit(all_matrix)
+pdf('./figures/pca_by_month.pdf')
+autoplot(all_pca_call, data = all_matrix_omit, colour = "Month", size = 4, frame = T, frame.type = "norm") 
+dev.off()
+
+# total PCA grouped by month reduced
+reduced_matrix <- cbind(wk_master$Sample_ID, wk_master$Date_Extracted,
+                    wk_master$Tidal_height, 
+                    wk_master$Chlorophyll_conc,
+                    wk_master$Phycocyanin_conc,
+                    wk_master$Temp, 
+                    wk_master$Nitrate,
+                    wk_master$pH)
+reduced_matrix <- data.frame(reduced_matrix)
+colnames(reduced_matrix) <- c("Sample_ID", "Date_Extracted", "Tide", "Chlorophyll", "Phycocyanin",
+                          "Temperature", "Nitrate", "pH")
+Month <- c(rep("April", times = 20), rep("May", times = 60), rep("June", times = 100), rep("July", times = 80),
+           rep("August", times = 80), rep("September", times = 100), rep("October", times = 80))
+reduced_matrix <- cbind(Month, reduced_matrix)
+pca_reduced_matrix <- reduced_matrix[,4:9]
+for (i in (1:6)) {
+  pca_reduced_matrix[,i] <- as.numeric(pca_reduced_matrix[,i])
+}
+pca_reduced_matrix <- na.omit(pca_reduced_matrix)
+reduced_pca_call <- prcomp(pca_reduced_matrix, scale = T, center = T)
+
+reduced_matrix_omit <- na.omit(reduced_matrix)
+pdf('./figures/pca_by_month_reduced.pdf')
+autoplot(reduced_pca_call, data = reduced_matrix_omit, colour = "Month", size = 4, frame = T, frame.type = "norm") 
+dev.off()
 
 # total pca
 regions <- c("Ashley River", "Ashley River", "Ashley River", "Barrier Islands", "Charleston Harbor", 
