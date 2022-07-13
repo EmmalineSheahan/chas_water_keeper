@@ -101,6 +101,63 @@ tide_v_nitrate <- make_site_df(site_tide_v_nitrate_stats, "Tidal Height", "Nitra
 # Tide v Salinity
 tide_v_salinity <- make_site_df(site_tide_v_salinity_stats, "Tidal Height", "Salinity")
 
+# Alkalinity vs Chlorophyll
+alk_v_chla <- make_site_df(site_alk_v_chlorophyll_stats, "Alkalinity", "Chlorophyll Concentration")
+
+# Alkalinity vs Phycocyanin
+alk_v_pc <- make_site_df(site_alk_v_pc_stats, "Alkalinity", "Phycocyanin Concentration")
+
+# Alkalinity vs Phycoerytherin
+alk_v_pe <- make_site_df(site_alk_v_pe_stats, "Alkalinity", "Phycoerytherin Concentration")
+
+# Alkalinity vs Phosphate
+alk_v_phos <- make_site_df(site_alk_v_phosphate_stats, "Phosphate", "Alkalinity")
+
+# Alkalinity vs Nitrate
+alk_v_nit <- make_site_df(site_alk_v_nitrate_stats, "Nitrate", "Alkalinity")
+
+# Alkalinity vs Temperature
+alk_v_temp <- make_site_df(site_alk_v_temp_stats, "Temperature", "Alkalinity")
+
+# Alkalinity vs Tide
+alk_v_tide <- make_site_df(site_alk_v_tide_stats, "Tidal Height", "Alkalinity")
+
+# Alkalinity vs Salinity
+alk_v_salinity <- make_site_df(site_alk_v_salinity_stats, "Salinity", "Alkalinity")
+
+# Alkalinity vs CDOM
+alk_v_cdom <- make_site_df(site_alk_v_cdom_stats, "CDOM Absorbance at 412 nm", "Alkalinity")
+
+# pH vs Chlorophyll
+ph_v_chla <- make_site_df(site_ph_v_chlorophyll_stats, "pH", "Chlorophyll Concentration")
+
+# pH vs Phycocyanin
+ph_v_pc <- make_site_df(site_ph_v_pc_stats, "pH", "Phycocyanin Concentration")
+
+# pH vs Phycoerytherin
+ph_v_pe <- make_site_df(site_ph_v_pe_stats, "pH", "Phycoerytherin Concentration")
+
+# pH vs Phosphate
+ph_v_phos <- make_site_df(site_ph_v_phosphate_stats, "Phosphate", "pH")
+
+# pH vs Nitrate
+ph_v_nit <- make_site_df(site_ph_v_nitrate_stats, "Nitrate", "pH")
+
+# pH vs Temperature
+ph_v_temp <- make_site_df(site_ph_v_temp_stats, "Temperature", "pH")
+
+# pH vs Tide
+ph_v_tide <- make_site_df(site_ph_v_tide_stats, "Tidal Height", "pH")
+
+# pH vs Salinity
+ph_v_salinity <- make_site_df(site_ph_v_salinity_stats, "Salinity", "pH")
+
+# pH vs CDOM
+ph_v_cdom <- make_site_df(site_ph_v_cdom_stats, "CDOM Absorbance at 412 nm", "pH")
+
+# Alkalinity vs pH
+alk_v_ph <- make_site_df(site_alk_v_ph_stats, "Alkalinity", "pH")
+
 # chemtax information
 
 # Temp V DinoA
@@ -269,7 +326,10 @@ nitrate_v_Eugleno <- make_site_df(site_nitrate_v_eugleno_stats, "Nitrate", "Eugl
 stats_by_site <- rbind(temp_v_chloro, temp_v_pc, temp_v_pe, salinity_v_chloro, salinity_v_pc, salinity_v_pe,
                        phosphate_v_chloro, phosphate_v_pc, phosphate_v_pe, nitrate_v_chloro, nitrate_v_pc,
                        nitrate_v_pe, tide_v_cdom, tide_v_chloro, tide_v_nitrate, tide_v_pc, tide_v_pe,
-                       tide_v_phosphate, tide_v_salinity, pc_v_cyanos, pe_v_cyanos, temp_v_DinoA, 
+                       tide_v_phosphate, tide_v_salinity, ph_v_cdom, ph_v_chla, ph_v_nit, ph_v_pc,
+                       ph_v_pe, ph_v_phos, ph_v_salinity, ph_v_temp, ph_v_tide, 
+                       alk_v_cdom, alk_v_chla, alk_v_nit, alk_v_pc, alk_v_pe, alk_v_ph, alk_v_phos,
+                        alk_v_salinity, alk_v_temp, alk_v_tide, pc_v_cyanos, pe_v_cyanos, temp_v_DinoA, 
                        cdom_v_DinoA, salinity_v_DinoA, tide_v_DinoA, phosphate_v_DinoA, nitrate_v_DinoA, 
                        temp_v_DinoB, cdom_v_DinoB, salinity_v_DinoB, tide_v_DinoB, phosphate_v_DinoB, 
                        nitrate_v_DinoB, temp_v_Cyanos, cdom_v_Cyanos, salinity_v_Cyanos, tide_v_Cyanos, 
